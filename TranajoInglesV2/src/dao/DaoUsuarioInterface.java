@@ -1,15 +1,16 @@
 package dao;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 
-import org.mariadb.jdbc.Connection;
+
 
 import modelo.Usuario;
 
 public interface DaoUsuarioInterface {
 
-	public Usuario login(String usuario, String contraseña, Connection conn ) throws SQLException;
+	public Usuario consultarUsuario(String usuario, Connection conn ) throws SQLException;
 
-	public Boolean registrar(Usuario usuario, Connection conn) throws SQLException;
+	public Boolean insertarUsuario(Usuario usuario, Connection conn) throws SQLException;
 
 }
