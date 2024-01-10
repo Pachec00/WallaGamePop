@@ -15,7 +15,7 @@
          <children>
             <ImageView fitHeight="164.0" fitWidth="200.0" layoutX="36.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../Desktop/Patricia/Desarrollo%20de%20interfaces/star.jpg" />
+                  <Image url="@star.jpg" />
                </image>
             </ImageView>
          </children>
@@ -29,7 +29,7 @@
          <children>
             <ImageView fitHeight="176.0" fitWidth="135.0" layoutX="29.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../Desktop/Patricia/Desarrollo%20de%20interfaces/star.jpg" />
+                  <Image url="@star.jpg" />
                </image>
             </ImageView>
          </children>
@@ -38,7 +38,7 @@
          <children>
             <ImageView fitHeight="173.0" fitWidth="135.0" layoutX="33.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../Desktop/Patricia/Desarrollo%20de%20interfaces/star.jpg" />
+                  <Image url="@star.jpg" />
                </image>
             </ImageView>
          </children>
@@ -47,7 +47,7 @@
          <children>
             <ImageView fitHeight="164.0" fitWidth="128.0" layoutX="36.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../Desktop/Patricia/Desarrollo%20de%20interfaces/star.jpg" />
+                  <Image url="@star.jpg" />
                </image>
             </ImageView>
          </children>
