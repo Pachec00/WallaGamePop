@@ -1,4 +1,4 @@
-package app.gui;
+package src.app.gui;
 
 public class Launcher {
 

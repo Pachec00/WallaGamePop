@@ -1,4 +1,4 @@
-package app.gui.login;
+package src.app.gui.login;
 
 import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
