@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="89.0" layoutY="238.0" prefHeight="164.0" prefWidth="200.0" style="-fx-border-color: black;">
+         <children>
+            <ImageView fitHeight="164.0" fitWidth="200.0" layoutX="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@star.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="328.0" layoutY="50.0" prefHeight="72.0" prefWidth="143.0" style="-fx-border-color: black;" text="HOME">
+         <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Pane layoutX="89.0" layoutY="483.0" prefHeight="176.0" prefWidth="200.0" style="-fx-border-color: black;">
+         <children>
+            <ImageView fitHeight="176.0" fitWidth="135.0" layoutX="29.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@star.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="479.0" layoutY="477.0" prefHeight="176.0" prefWidth="200.0" style="-fx-border-color: black;">
+         <children>
+            <ImageView fitHeight="173.0" fitWidth="135.0" layoutX="33.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@star.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="479.0" layoutY="234.0" prefHeight="164.0" prefWidth="200.0" style="-fx-border-color: black;">
+         <children>
+            <ImageView fitHeight="164.0" fitWidth="128.0" layoutX="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@star.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Slider layoutX="734.0" layoutY="210.0" orientation="VERTICAL" prefHeight="409.0" prefWidth="51.0" />
+   </children>
+</AnchorPane>
