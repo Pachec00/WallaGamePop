@@ -5,6 +5,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
@@ -21,55 +22,29 @@
             <Image url="@../../../../../../../Downloads/carrito.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="246.0" fitWidth="181.0" layoutX="143.0" layoutY="227.0" pickOnBounds="true">
-         <image>
-            <Image url="@star.jpg" />
-         </image>
-      </ImageView>
-      <Label layoutX="484.0" layoutY="226.0" prefHeight="39.0" prefWidth="76.0" text="Starfield">
+      <Label layoutX="484.0" layoutY="226.0" prefHeight="39.0" prefWidth="76.0">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="370.0" layoutY="285.0" prefHeight="39.0" prefWidth="84.0" text="Categoría :">
+      <Label layoutX="486.0" layoutY="285.0" prefHeight="39.0" prefWidth="148.0">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="486.0" layoutY="285.0" prefHeight="39.0" prefWidth="148.0" text="Aventura">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="370.0" layoutY="226.0" prefHeight="39.0" prefWidth="76.0" text="Nombre :">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="372.0" layoutY="350.0" prefHeight="32.0" prefWidth="58.0" text="Precio :">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="486.0" layoutY="354.0" text="40 €">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Button layoutX="363.0" layoutY="445.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="+" />
-      <Button layoutX="446.0" layoutY="445.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="-" />
-      <Label alignment="CENTER" layoutX="401.0" layoutY="445.0" prefHeight="25.0" prefWidth="45.0" style="-fx-background-color: grey;" text="1">
+      <Label layoutX="486.0" layoutY="354.0">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="24.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
       <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: lightgreen;" text="Home" />
-      <Label layoutX="100.0" layoutY="201.0" prefHeight="469.0" prefWidth="590.0" style="-fx-border-color: black;" />
       <Button layoutX="299.0" layoutY="576.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: lightgreen;" text="COMPRAR" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Button>
+      <Line endX="306.0" layoutX="389.0" layoutY="517.0" startX="-286.0" />
+      <Line endX="306.0" layoutX="382.0" layoutY="205.0" startX="-286.0" />
    </children>
 </AnchorPane>
