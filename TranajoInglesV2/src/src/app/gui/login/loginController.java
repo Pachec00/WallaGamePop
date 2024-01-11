@@ -14,7 +14,7 @@ public class loginController {
 	public void imagen() {
 		FadeTransition ft = new FadeTransition();
 		ft.setNode(vista);
-		ft.setDuration(new Duration(400));
+		ft.setDuration(new Duration(2000));
 		ft.setFromValue(1.0);
 		ft.setToValue(0.0);
 		ft.setCycleCount(1);
