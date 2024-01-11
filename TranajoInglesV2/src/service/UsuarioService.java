@@ -16,6 +16,7 @@ public class UsuarioService implements UsuarioServiceInterface {
 	
 	//Falta poner excepciones
 
+	//COMENTARIO DE PRUEBA
 	private OpenConnection openConnection;
 
 	public UsuarioService() {
