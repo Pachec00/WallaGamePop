@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -34,9 +35,9 @@
             </ImageView>
          </children>
       </Pane>
-      <Pane layoutX="479.0" layoutY="477.0" prefHeight="176.0" prefWidth="200.0" style="-fx-border-color: black;">
+      <Pane layoutX="479.0" layoutY="489.0" prefHeight="164.0" prefWidth="200.0" style="-fx-border-color: black;">
          <children>
-            <ImageView fitHeight="173.0" fitWidth="135.0" layoutX="33.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="164.0" fitWidth="135.0" layoutX="36.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@star.jpg" />
                </image>
@@ -53,5 +54,15 @@
          </children>
       </Pane>
       <Slider layoutX="734.0" layoutY="210.0" orientation="VERTICAL" prefHeight="409.0" prefWidth="51.0" />
+      <Button layoutX="140.0" layoutY="415.0" mnemonicParsing="false" stylesheets="@estilo.css" text="Ver el producto" />
+      <Button layoutX="140.0" layoutY="672.0" mnemonicParsing="false" stylesheets="@estilo.css" text="Ver el producto" />
+      <Button layoutX="530.0" layoutY="415.0" mnemonicParsing="false" stylesheets="@estilo.css" text="Ver el producto" />
+      <Button layoutX="530.0" layoutY="671.0" mnemonicParsing="false" stylesheets="@estilo.css" text="Ver el producto" />
+      <TextField layoutX="269.0" layoutY="156.0" prefHeight="25.0" prefWidth="261.0" promptText="Busca en Wallagamepop..." />
+      <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="505.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/lupa2.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
