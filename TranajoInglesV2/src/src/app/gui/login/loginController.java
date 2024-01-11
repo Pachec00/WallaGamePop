@@ -17,9 +17,9 @@ public class loginController {
 		ft.setDuration(new Duration(400));
 		ft.setFromValue(1.0);
 		ft.setToValue(0.0);
-		ft.setCycleCount(5);
+		ft.setCycleCount(1);
 		ft.setAutoReverse(false);
-		vista.setOnKeyPressed(evt -> ft.play());
+		vista.setOnMouseMoved(evt -> ft.play());
 
 	}
 
