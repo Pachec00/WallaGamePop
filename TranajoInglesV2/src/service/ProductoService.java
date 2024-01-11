@@ -27,10 +27,14 @@ public class ProductoService implements ProductoServiceInterface{
 			DaoProducto dao = new DaoProducto();
 			
 			List<Producto> listaProducto = dao.consultaListaProductos(us, conn);
+			if(listaProducto.isEmpty()) {
+				//lanzar excepcion para indicar lista vacia
+			}
+			
 			return listaProducto;
 		} catch (SQLException e) {
 			
-			return null; //Lanzar excepcion
+			return null; //Lanzar excepcion de error 
 		}
 		
 	}
@@ -45,7 +49,7 @@ public class ProductoService implements ProductoServiceInterface{
 			
 			dao.insertarProducto(prod, conn);
 		} catch (SQLException e) {
-			//Lanzar excepcion
+			//Lanzar excepcion de error
 			e.printStackTrace();
 		}
 		
