@@ -14,9 +14,9 @@ public class UsuarioService implements UsuarioServiceInterface {
 	 * TODO Servicios de la interface TODO BLAS TODO FABIO
 	 */
 	
-	//Falta poner excepciones
+	//TODO Falta poner excepciones
 
-	//COMENTARIO DE PRUEBA
+	
 	private OpenConnection openConnection;
 
 	public UsuarioService() {
