@@ -4,8 +4,9 @@ import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
 import javafx.scene.image.ImageView;
 import javafx.util.Duration;
+import src.app.gui.AppController;
 
-public class loginController {
+public class loginController extends AppController {
 
 	@FXML
 	private ImageView vista;
@@ -13,8 +14,9 @@ public class loginController {
 	@FXML
 	public void imagen() {
 		FadeTransition ft = new FadeTransition();
+//		ft.setNode(cargarFXML(FXMLPaths.PANTALLA_2));
 		ft.setNode(vista);
-		ft.setDuration(new Duration(2000));
+		ft.setDuration(new Duration(4000));
 		ft.setFromValue(1.0);
 		ft.setToValue(0.0);
 		ft.setCycleCount(1);

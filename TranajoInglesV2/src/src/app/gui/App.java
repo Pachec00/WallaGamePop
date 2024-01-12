@@ -10,6 +10,7 @@ public class App extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
+
 		FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("/app/gui/loginin/login.fxml"));
 		Scene scene = new Scene(fxmlLoader.load());
 		primaryStage.setScene(scene);
@@ -20,7 +21,13 @@ public class App extends Application {
 		primaryStage.setMinWidth(799);
 		primaryStage.setResizable(false);
 
+//		AppController controller = new AppController(primaryStage);
+//		controller.cambiarVista(FXMLPaths.PANTALLA_2);
+
 	}
+	
+	
+	
 
 	public static void main(String[] args) {
 
