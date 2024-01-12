@@ -1,28 +1,30 @@
 package src.app.gui.login;
 
-import javafx.animation.FadeTransition;
+
 import javafx.fxml.FXML;
-import javafx.scene.image.ImageView;
-import javafx.util.Duration;
+
+import javafx.scene.control.Button;
+
+import javafx.scene.layout.AnchorPane;
+
 import src.app.gui.AppController;
+import src.app.gui.FXMLPaths;
+
 
 public class loginController extends AppController {
+	@FXML
+	private AnchorPane pane;
+
 
 	@FXML
-	private ImageView vista;
-
+	private Button boton;
+	
+	
+	
 	@FXML
-	public void imagen() {
-		FadeTransition ft = new FadeTransition();
-//		ft.setNode(cargarFXML(FXMLPaths.PANTALLA_2));
-		ft.setNode(vista);
-		ft.setDuration(new Duration(4000));
-		ft.setFromValue(1.0);
-		ft.setToValue(0.0);
-		ft.setCycleCount(1);
-		ft.setAutoReverse(false);
-		vista.setOnMouseMoved(evt -> ft.play());
+	public void entrar() {
+		AppController controller = new AppController(primaryStage);
+		controller.cambiarVista(FXMLPaths.PANTALLA_2);
 
 	}
-
 }
