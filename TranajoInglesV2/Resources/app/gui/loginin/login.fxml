@@ -8,12 +8,12 @@
 
 <AnchorPane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.login.loginController">
    <children>
-      <ImageView fx:id="pane" fitHeight="710.0" fitWidth="799.0" onMouseMoved="#imagen" pickOnBounds="true">
+      <ImageView fitHeight="710.0" fitWidth="799.0" pickOnBounds="true">
          <image>
             <Image url="@1.png" />
          </image>
       </ImageView>
-      <Button fx:id="boton" layoutX="222.0" layoutY="601.0" mnemonicParsing="false" onAction="#entrar" prefHeight="77.0" prefWidth="377.0" text="PINCHA AQUÍ ">
+      <Button fx:id="boton" layoutX="289.0" layoutY="46.0" mnemonicParsing="false" onAction="#entrar" prefHeight="59.0" prefWidth="221.0" text="PINCHA AQUÍ ">
          <font>
             <Font size="26.0" />
          </font>

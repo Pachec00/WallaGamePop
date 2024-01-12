@@ -33,16 +33,8 @@ public class AppController {
 			throw new RuntimeException();
 		}
 	}
+	
+	
+	
 
-	public Parent cargarFXML(String fxml) {
-		try {
-
-			URL url = App.class.getResource(fxml);
-			FXMLLoader loader = new FXMLLoader(url);
-			return loader.load();
-
-		} catch (IOException e) {
-			throw new RuntimeException();
-		}
-	}
 }

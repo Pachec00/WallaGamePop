@@ -9,10 +9,9 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label alignment="CENTER" layoutX="251.0" layoutY="46.0" prefHeight="105.0" prefWidth="298.0" style="-fx-border-color: black;" text="CARRITO">
+      <Label alignment="CENTER" layoutX="251.0" layoutY="46.0" prefHeight="105.0" prefWidth="298.0" style="-fx-border-color: black;" text="CARRITO" textFill="#81cd9d">
          <font>
             <Font name="Bodoni MT Bold" size="48.0" />
          </font>
@@ -38,13 +37,19 @@
          </font>
       </Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="24.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
-      <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: lightgreen;" text="Home" />
-      <Button layoutX="299.0" layoutY="576.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: lightgreen;" text="COMPRAR" textFill="WHITE">
+      <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
+      <Button layoutX="296.0" layoutY="593.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: #81cd9d;" text="COMPRAR" textFill="#e9f2ff">
          <font>
             <Font size="16.0" />
          </font>
       </Button>
-      <Line endX="306.0" layoutX="389.0" layoutY="517.0" startX="-286.0" />
+      <Line endX="306.0" layoutX="390.0" layoutY="559.0" startX="-286.0" />
       <Line endX="306.0" layoutX="382.0" layoutY="205.0" startX="-286.0" />
+      <ImageView fitHeight="89.0" fitWidth="96.0" layoutX="32.0" layoutY="40.0">
+         <image>
+            <Image url="@home.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="652.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
    </children>
 </AnchorPane>

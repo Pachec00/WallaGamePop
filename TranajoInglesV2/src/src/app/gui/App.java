@@ -21,8 +21,8 @@ public class App extends Application {
 		primaryStage.setMinWidth(799);
 		primaryStage.setResizable(false);
 
-//		AppController controller = new AppController(primaryStage);
-//		controller.cambiarVista(FXMLPaths.PANTALLA_2);
+		AppController controller = new AppController(primaryStage);
+		controller.cambiarVista(FXMLPaths.PANTALLA_2);
 
 	}
 	
