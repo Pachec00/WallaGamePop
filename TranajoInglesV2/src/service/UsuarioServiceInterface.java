@@ -6,5 +6,5 @@ public interface UsuarioServiceInterface {
 
 	public Boolean login(String usuario, String contraseña);
 	
-	public void registrar(Usuario usuario);
+	public Boolean registrar(Usuario usuario);
 }

@@ -54,7 +54,7 @@ public class UsuarioService implements UsuarioServiceInterface {
 	}
 
 	@Override
-	public void registrar(Usuario usuario) {
+	public Boolean registrar(Usuario usuario) {
 		Connection conn = null;
 		
 		try {
@@ -62,11 +62,11 @@ public class UsuarioService implements UsuarioServiceInterface {
 			conn = openConnection.getConnection();
 			
 			DaoUsuario dao = new DaoUsuario();
-			dao.insertarUsuario(usuario, conn);
+			return dao.insertarUsuario(usuario, conn);
 		}catch(NoSuchAlgorithmException e1) {
-			
+			return null; //TODO Lanzar excepciones
 		}catch (SQLException e) {
-			e.printStackTrace();
+			return null;//TODO Lanzar excepciones
 		}
 		
 	}
