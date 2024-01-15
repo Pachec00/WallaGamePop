@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label alignment="CENTER" layoutX="197.0" layoutY="30.0" prefHeight="62.0" prefWidth="388.0" style="-fx-border-color: black;" stylesheets="@estilo.css" text="INFORMATION" textFill="#81cd9d">
          <font>
@@ -22,27 +22,27 @@
             <Image url="@star.jpg" />
          </image>
       </ImageView>
-      <RadioButton layoutX="178.0" layoutY="326.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="147.0" text="Name :" textFill="#e9f2ff">
+      <RadioButton focusTraversable="false" layoutX="178.0" layoutY="327.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="147.0" text="Name :" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="178.0" layoutY="361.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="185.0" text="Status : Good" textFill="#e9f2ff">
+      <RadioButton layoutX="179.0" layoutY="355.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="185.0" text="Status : Good" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="182.0" layoutY="400.0" mnemonicParsing="false" text="Price : 40 €" textFill="#e9f2ff">
+      <RadioButton layoutX="179.0" layoutY="382.0" mnemonicParsing="false" text="Price : 40 €" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="181.0" layoutY="434.0" mnemonicParsing="false" text="Category : Adventure" textFill="#e9f2ff">
+      <RadioButton layoutX="179.0" layoutY="410.0" mnemonicParsing="false" text="Category : Adventure" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="182.0" layoutY="473.0" mnemonicParsing="false" text="Ship avalaible" textFill="#e9f2ff">
+      <RadioButton layoutX="179.0" layoutY="442.0" mnemonicParsing="false" text="Ship avalaible" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font>
