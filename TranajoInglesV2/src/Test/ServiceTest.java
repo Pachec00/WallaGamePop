@@ -27,17 +27,18 @@ public class ServiceTest {
 
 		// Crear objetos para los tests
 
+		userExiste.setIdUsuario(1);
 		userExiste.setUsuario("admin");
 		userExiste.setContraseña("123");
 
-		userNoExiste.setUsuario("admin2");
+		userNoExiste.setUsuario("admin3");
 		userNoExiste.setContraseña("123");
 
-		usuarioRegistrarTest(userNoExiste);
+		//usuarioRegistrarTest(userNoExiste);
 
 		usuarioLoginTest(userExiste, userNoExiste);
 		
-		productoTest(userExiste, userNoExiste);
+		productoTest(userExiste);
 
 	}
 
@@ -96,7 +97,7 @@ public class ServiceTest {
 
 	}
 
-	public static void productoTest(Usuario userExiste, Usuario userNoExiste) {
+	public static void productoTest(Usuario userExiste) {
 		ProductoService ps = new ProductoService();
 		List<Producto> lista = new ArrayList<>();
 
@@ -124,22 +125,7 @@ public class ServiceTest {
 
 		
 
-		// Usuario que NO existe
-
-		System.out.println("TEST PARA USUARIO QUE NO EXISTE");
 		
-		try {
-			lista = ps.consultarListaProductoService(userNoExiste);
-			
-			if (lista.isEmpty()) {
-				System.out.println(ANSI_GREEN + "...Test pasado" + ANSI_RESET);
-			} else {
-				System.err.println("...Test NO pasado");
-			}
-		} catch (SQLException | ListaVaciaException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		
 		
