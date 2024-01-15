@@ -31,7 +31,7 @@ public class AppController {
 			return loader.getController();
 
 		} catch (IOException e) {
-			throw new RuntimeException();
+			throw new RuntimeException(e);
 		}
 	}
 
