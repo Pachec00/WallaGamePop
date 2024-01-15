@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.pantallaAceptada.pantallaAceptadaController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="251.0" layoutY="46.0" prefHeight="434.0" prefWidth="292.0" style="-fx-border-color: black;" text="PURCHASE ACCEPTED, THANK YOU FOR SHOPPING WITH US!!" textAlignment="CENTER" textFill="#81cd9d" wrapText="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="48.0" />
+               </font>
+            </Label>
+            <Button layoutX="312.0" layoutY="551.0" mnemonicParsing="false" onAction="#home" prefHeight="56.0" prefWidth="153.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

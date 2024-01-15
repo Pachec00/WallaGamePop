@@ -46,7 +46,7 @@
                </font>
             </Label>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="24.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
-            <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
+            <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" onAction="#home" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
             <Button layoutX="299.0" layoutY="600.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: #81cd9d;" text="BUY" textFill="#e9f2ff">
                <font>
                   <Font size="16.0" />
