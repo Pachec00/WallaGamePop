@@ -12,7 +12,7 @@ public class cestaController extends AppController {
 
 	@FXML
 	public void compra() {
-		cambiarVista(FXMLPaths.ACEPTADA);
+		cambiarVista(FXMLPaths.COMPRA);
 
 	}
 

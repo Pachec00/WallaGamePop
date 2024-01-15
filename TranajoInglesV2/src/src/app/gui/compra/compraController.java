@@ -11,8 +11,8 @@ public class compraController extends AppController {
 	private Button boton;
 
 	@FXML
-	public void aceptada() {
-		cambiarVista(FXMLPaths.COMPRA);
+	public void aceptadaSI() {
+		cambiarVista(FXMLPaths.ACEPTADA);
 
 	}
 
