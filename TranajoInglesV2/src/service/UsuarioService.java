@@ -23,19 +23,19 @@ public class UsuarioService implements UsuarioServiceInterface {
 	}
 
 	@Override
-	public Boolean login(String usuario, String contraseña) {
+	public Usuario login(String usuario, String contraseña) {
 		Connection conn = null;
 
 		try {
-			String pass = encriptarPass(contraseña);
+			String pass = encriptarPass(contraseña); // Añadir encriptacion
 
 			conn = openConnection.getConnection();
 			DaoUsuario dao = new DaoUsuario();
 
 			Usuario usuarioCon = dao.consultarUsuario(usuario, conn);
 
-			if (usuarioCon != null && pass.equals(contraseña)) {
-				return true;
+			if (usuarioCon != null && usuarioCon.getContraseña().equals(contraseña)) {
+				return usuarioCon;
 			}
 
 		} catch (SQLException e) {
@@ -49,19 +49,22 @@ public class UsuarioService implements UsuarioServiceInterface {
 
 			}
 		}
-		return false;
+		return null;
 	}
 
 	@Override
 	public Boolean registrar(Usuario usuario) throws NoSuchAlgorithmException, SQLException {
 		Connection conn = null;
+		Boolean r;
 
 		try {
 			String pass = encriptarPass(usuario.getContraseña());
 			conn = openConnection.getConnection();
 
 			DaoUsuario dao = new DaoUsuario();
-			return dao.insertarUsuario(usuario, conn);
+			r = dao.insertarUsuario(usuario, conn);
+			
+			return r;
 		} catch (NoSuchAlgorithmException e1) {
 			throw new NoSuchAlgorithmException("Error al encriptar", e1);
 		} catch (SQLException e) {
