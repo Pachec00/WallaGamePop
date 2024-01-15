@@ -14,7 +14,7 @@
    <children>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;">
          <children>
-            <Label alignment="CENTER" layoutX="251.0" layoutY="46.0" prefHeight="105.0" prefWidth="298.0" style="-fx-border-color: black;" text="COMPRA" textFill="#81cd9d">
+            <Label alignment="CENTER" layoutX="251.0" layoutY="46.0" prefHeight="105.0" prefWidth="298.0" style="-fx-border-color: black;" text="PURCHASE" textFill="#81cd9d">
                <font>
                   <Font name="Bodoni MT Bold" size="48.0" />
                </font>
@@ -24,13 +24,13 @@
                   <Image url="@../../../../../../../Downloads/carrito.png" />
                </image>
             </ImageView>
-            <Label layoutX="42.0" layoutY="203.0" prefHeight="25.0" prefWidth="56.0" text="Nombre" textFill="#e9f2ff" />
-            <Label layoutX="261.0" layoutY="300.0" prefHeight="25.0" prefWidth="56.0" text="Ciudad :" textFill="#e9f2ff">
+            <Label layoutX="42.0" layoutY="203.0" prefHeight="25.0" prefWidth="56.0" text="Name" textFill="#e9f2ff" />
+            <Label layoutX="261.0" layoutY="300.0" prefHeight="25.0" prefWidth="56.0" text="City :" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="261.0" layoutY="229.0" prefHeight="39.0" prefWidth="102.0" text="Dirección :" textFill="#e9f2ff">
+            <Label layoutX="261.0" layoutY="229.0" prefHeight="39.0" prefWidth="102.0" text="Address :" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
@@ -40,21 +40,21 @@
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <Label layoutX="261.0" layoutY="268.0" prefHeight="25.0" prefWidth="90.0" text="Código postal :" textFill="#e9f2ff">
+            <Label layoutX="261.0" layoutY="268.0" prefHeight="25.0" prefWidth="90.0" text="Postal code :" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="24.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
             <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
-            <Button layoutX="299.0" layoutY="600.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: #81cd9d;" text="COMPRAR" textFill="#e9f2ff">
+            <Button layoutX="299.0" layoutY="600.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: #81cd9d;" text="BUY" textFill="#e9f2ff">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button layoutX="659.0" layoutY="139.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Carrito" textFill="#e9f2ff" />
+            <Button layoutX="659.0" layoutY="139.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Shopping car" textFill="#e9f2ff" />
             <Label layoutX="31.0" layoutY="196.0" prefHeight="170.0" prefWidth="200.0" style="-fx-border-color: black;" />
-            <Label layoutX="261.0" layoutY="332.0" text="Estado/Provincia :" textFill="#e9f2ff">
+            <Label layoutX="261.0" layoutY="332.0" text="State/Province :" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
@@ -71,12 +71,12 @@
             <Line endX="635.0" endY="-0.5" layoutX="117.0" layoutY="388.0" startX="125.0" startY="-0.5" />
             <Line endX="465.5" endY="-20.0" layoutX="287.0" layoutY="408.0" startX="465.5" startY="172.0" />
             <Line endX="456.0" endY="-0.5" layoutX="296.0" layoutY="581.0" startX="-55.0" startY="-0.5" />
-            <Label layoutX="261.0" layoutY="432.0" prefHeight="39.0" prefWidth="136.0" text="Número de tarjeta :" textFill="#e9f2ff">
+            <Label layoutX="261.0" layoutY="432.0" prefHeight="39.0" prefWidth="136.0" text="Card number :" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="261.0" layoutY="477.0" prefHeight="39.0" prefWidth="156.0" text="Fecha de caducidad :" textFill="#e9f2ff">
+            <Label layoutX="261.0" layoutY="477.0" prefHeight="39.0" prefWidth="156.0" text="Date of Expiry :" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
@@ -90,12 +90,12 @@
             <TextField layoutX="384.0" layoutY="484.0" prefHeight="25.0" prefWidth="76.0" promptText="mm/yyyy" />
             <TextField layoutX="384.0" layoutY="524.0" prefHeight="25.0" prefWidth="76.0" promptText="000" />
             <Label layoutX="28.0" layoutY="388.0" prefHeight="193.0" prefWidth="200.0" style="-fx-border-color: black;" />
-            <Label alignment="CENTER" layoutX="374.0" layoutY="202.0" prefHeight="25.0" prefWidth="281.0" text="DIRECCIÓN DE ENVÍO" textFill="#81cd9d">
+            <Label alignment="CENTER" layoutX="374.0" layoutY="202.0" prefHeight="25.0" prefWidth="281.0" text="SHIPPING ADDRESS" textFill="#81cd9d">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <Label alignment="CENTER" layoutX="305.0" layoutY="387.0" prefHeight="25.0" prefWidth="281.0" text="PAGO" textFill="#81cd9d">
+            <Label alignment="CENTER" layoutX="363.0" layoutY="400.0" prefHeight="25.0" prefWidth="281.0" text="PAYMENT" textFill="#81cd9d">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font>
@@ -104,7 +104,7 @@
             <Label layoutX="42.0" layoutY="269.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
             <Label layoutX="42.0" layoutY="299.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
             <Label layoutX="42.0" layoutY="299.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
-            <Label layoutX="152.0" layoutY="203.0" prefHeight="25.0" prefWidth="56.0" text="Cantidad" textFill="#e9f2ff" />
+            <Label layoutX="152.0" layoutY="203.0" prefHeight="25.0" prefWidth="56.0" text="Amount" textFill="#e9f2ff" />
             <Line endX="466.5" endY="33.0" layoutX="-326.0" layoutY="177.0" startX="466.5" startY="168.0" stroke="WHITE" />
             <Label layoutX="163.0" layoutY="234.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
             <Label layoutX="163.0" layoutY="323.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
