@@ -53,8 +53,8 @@ public class DaoUsuario implements DaoUsuarioInterface {
 		Usuario us= new Usuario();
 		try {
 			us=consultarUsuario(usuario.getUsuario(), conn);
-			if(us.getIdUsuario()==null) {
-				String sql = "INSERT INTO USUARIOS (NOMBRE,APELLIDO,USUARIO,CONTRASEÑA) values (?,?,?,?)";
+			if(us==null) {
+				String sql = "INSERT INTO USUARIO (NOMBRE,APELLIDO,USUARIO,CONTRASEÑA) values (?,?,?,?)";
 				stmt = conn.prepareStatement(sql);
 				stmt.setString(1, usuario.getNombre());
 				stmt.setString(2, usuario.getApellido());
