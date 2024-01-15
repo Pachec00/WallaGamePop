@@ -5,8 +5,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 import exceptions.ListaVaciaException;
 import modelo.Producto;
 import modelo.Usuario;
@@ -34,10 +32,10 @@ public class ServiceTest {
 		userNoExiste.setUsuario("admin3");
 		userNoExiste.setContraseña("123");
 
-		//usuarioRegistrarTest(userNoExiste);
+		// usuarioRegistrarTest(userNoExiste);
 
 		usuarioLoginTest(userExiste, userNoExiste);
-		
+
 		productoTest(userExiste);
 
 	}
@@ -101,19 +99,18 @@ public class ServiceTest {
 		ProductoService ps = new ProductoService();
 		List<Producto> lista = new ArrayList<>();
 
-		
 		System.out.println("TEST PARA PRODUCTO");
-		
+
 		// Test para consultarListaProducto
 		// Si la lista esta vacia puede ser pq no exista o por un error
 
 		// Usuario que existe
-		
+
 		System.out.println("TEST PARA USUARIO QUE EXISTE");
 
 		try {
 			lista = ps.consultarListaProductoService(userExiste);
-			
+
 			if (!lista.isEmpty()) {
 				System.out.println(ANSI_GREEN + "...Test pasado" + ANSI_RESET);
 			} else {
@@ -122,14 +119,6 @@ public class ServiceTest {
 		} catch (SQLException | ListaVaciaException e) {
 			e.printStackTrace();
 		}
-
-		
-
-		
-
-		
-		
-		
 
 	}
 
