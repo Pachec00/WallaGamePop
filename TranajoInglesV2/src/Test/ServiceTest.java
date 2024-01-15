@@ -33,7 +33,7 @@ public class ServiceTest {
 		userNoExiste.setUsuario("admin2");
 		userNoExiste.setContraseña("123");
 
-		//usuarioRegistrarTest(userNoExiste);
+		usuarioRegistrarTest(userNoExiste);
 
 		//usuarioLoginTest(userExiste, userNoExiste);
 		
