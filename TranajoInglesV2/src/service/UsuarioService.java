@@ -13,10 +13,9 @@ public class UsuarioService implements UsuarioServiceInterface {
 	/*
 	 * TODO Servicios de la interface TODO BLAS TODO FABIO
 	 */
-	
-	//TODO Falta poner excepciones
 
-	
+	// TODO Falta poner excepciones
+
 	private OpenConnection openConnection;
 
 	public UsuarioService() {
@@ -42,7 +41,7 @@ public class UsuarioService implements UsuarioServiceInterface {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (NoSuchAlgorithmException e1) {
-
+			e1.printStackTrace();
 		} finally {
 			try {
 				conn.close();
@@ -54,21 +53,21 @@ public class UsuarioService implements UsuarioServiceInterface {
 	}
 
 	@Override
-	public Boolean registrar(Usuario usuario) {
+	public Boolean registrar(Usuario usuario) throws NoSuchAlgorithmException, SQLException {
 		Connection conn = null;
-		
+
 		try {
 			String pass = encriptarPass(usuario.getContraseña());
 			conn = openConnection.getConnection();
-			
+
 			DaoUsuario dao = new DaoUsuario();
 			return dao.insertarUsuario(usuario, conn);
-		}catch(NoSuchAlgorithmException e1) {
-			return null; //TODO Lanzar excepciones
-		}catch (SQLException e) {
-			return null;//TODO Lanzar excepciones
+		} catch (NoSuchAlgorithmException e1) {
+			throw new NoSuchAlgorithmException("Error al encriptar", e1);
+		} catch (SQLException e) {
+			throw new SQLException("Error en la BBDD", e);
 		}
-		
+
 	}
 
 	// Siempre se pasa la pass encriptada con SHA2
