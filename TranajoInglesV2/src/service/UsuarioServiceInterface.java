@@ -1,10 +1,13 @@
 package service;
 
+import java.security.NoSuchAlgorithmException;
+import java.sql.SQLException;
+
 import modelo.Usuario;
 
 public interface UsuarioServiceInterface {
 
-	public Boolean login(String usuario, String contraseña);
+	public Usuario login(String usuario, String contraseña);
 	
-	public void registrar(Usuario usuario);
+	public Boolean registrar(Usuario usuario) throws NoSuchAlgorithmException, SQLException;
 }

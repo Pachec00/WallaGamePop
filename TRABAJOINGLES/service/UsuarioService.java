@@ -13,8 +13,8 @@ public class UsuarioService implements UsuarioServiceInterface {
 	/*
 	 * TODO Servicios de la interface TODO BLAS TODO FABIO
 	 */
-	
-	//Falta poner excepciones
+
+	// Falta poner excepciones
 
 	private OpenConnection openConnection;
 
@@ -41,7 +41,7 @@ public class UsuarioService implements UsuarioServiceInterface {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (NoSuchAlgorithmException e1) {
-
+			e1.printStackTrace();
 		} finally {
 			try {
 				conn.close();
@@ -55,19 +55,19 @@ public class UsuarioService implements UsuarioServiceInterface {
 	@Override
 	public void registrar(Usuario usuario) {
 		Connection conn = null;
-		
+
 		try {
 			String pass = encriptarPass(usuario.getContraseña());
 			conn = openConnection.getConnection();
-			
+
 			DaoUsuario dao = new DaoUsuario();
 			dao.insertarUsuario(usuario, conn);
-		}catch(NoSuchAlgorithmException e1) {
-			
-		}catch (SQLException e) {
+		} catch (NoSuchAlgorithmException e1) {
+
+		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
+
 	}
 
 	// Siempre se pasa la pass encriptada con SHA2

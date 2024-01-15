@@ -3,5 +3,9 @@
  }
  
 .titulos{
-layoutX="328.0" layoutY="50.0" prefHeight="72.0" prefWidth="143.0" style="-fx-border-color: black;
+	layoutX:"328.0";
+	layoutY:"50.0";
+	prefHeight:"72.0";
+	prefWidth:"143.0";
+	-fx-border-color: "black";
 }
