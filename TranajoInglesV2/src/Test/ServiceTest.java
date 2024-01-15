@@ -35,9 +35,9 @@ public class ServiceTest {
 
 		usuarioRegistrarTest(userNoExiste);
 
-		//usuarioLoginTest(userExiste, userNoExiste);
+		usuarioLoginTest(userExiste, userNoExiste);
 		
-		//productoTest(userExiste, userNoExiste);
+		productoTest(userExiste, userNoExiste);
 
 	}
 
