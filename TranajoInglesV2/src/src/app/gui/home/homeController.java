@@ -37,4 +37,11 @@ public class homeController extends AppController {
 
 	}
 
+	@FXML
+	public void entrarCarrito() {
+
+		cambiarVista(FXMLPaths.CARRITO);
+
+	}
+
 }
