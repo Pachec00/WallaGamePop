@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Reflection?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.login.loginController">
    <children>
@@ -11,5 +17,29 @@
             <Image url="@1.png" />
          </image>
       </ImageView>
+      <Button layoutX="251.0" layoutY="45.0" mnemonicParsing="false" onAction="#entrar" prefHeight="43.0" prefWidth="297.0" style="-fx-background-color: linear-gradient(from 52.1327% 0.0% to 96.6825% 100.0%, #a4398b 0.0%, #a86097 100.0%);" text="CLICK HERE!">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.966824644549763" endY="1.0" startX="0.0995260663507109">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2240000069141388" green="0.49539050459861755" blue="0.6399999856948853" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.8999999761581421" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
    </children>
 </AnchorPane>

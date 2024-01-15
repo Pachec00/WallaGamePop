@@ -15,8 +15,7 @@ public class loginController extends AppController {
 	@FXML
 	public void entrar() {
 
-		AppController controller = new AppController(primaryStage);
-		controller.cambiarVista(FXMLPaths.PANTALLA_2);
+		cambiarVista(FXMLPaths.PANTALLA_2);
 
 	}
 }

@@ -2,8 +2,6 @@ package src.app.gui;
 
 import javafx.application.Application;
 
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class App extends Application {
@@ -11,9 +9,8 @@ public class App extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 
-		FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("/app/gui/loginin/login.fxml"));
-		Scene scene = new Scene(fxmlLoader.load());
-		primaryStage.setScene(scene);
+		AppController controller = new AppController(primaryStage);
+		controller.cambiarVista(FXMLPaths.LOGIN);
 		primaryStage.show();
 		primaryStage.setMaxHeight(710);
 		primaryStage.setMaxWidth(799);
@@ -21,13 +18,7 @@ public class App extends Application {
 		primaryStage.setMinWidth(799);
 		primaryStage.setResizable(false);
 
-		AppController controller = new AppController(primaryStage);
-		controller.cambiarVista(FXMLPaths.PANTALLA_2);
-
 	}
-	
-	
-	
 
 	public static void main(String[] args) {
 

@@ -1,10 +1,11 @@
 package src.app.gui;
 
 import java.io.IOException;
+
 import java.net.URL;
 
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
+
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -33,8 +34,5 @@ public class AppController {
 			throw new RuntimeException();
 		}
 	}
-	
-	
-	
 
 }
