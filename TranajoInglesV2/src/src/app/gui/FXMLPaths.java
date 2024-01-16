@@ -11,5 +11,6 @@ public class FXMLPaths {
 	public static String CARRITO = "/app/gui/loginin/PantallaCesta.fxml";
 	public static String COMPRA = "/app/gui/loginin/PantallaCompra.fxml";
 	public static String ACEPTADA = "/app/gui/loginin/PantallaCompraAceptada.fxml";
+	public static String PANTALLAINIREGI = "/app/gui/loginin/PantallaIniRegi.fxml";
 
 }
