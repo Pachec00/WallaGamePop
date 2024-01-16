@@ -18,13 +18,13 @@
                   <Font name="Bodoni MT Bold" size="48.0" />
                </font>
             </Label>
-            <Button layoutX="352.0" layoutY="219.0" mnemonicParsing="false" onAction="#home" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #88e1ff;" text="Log in" textFill="#217eff" />
+            <Button layoutX="352.0" layoutY="219.0" mnemonicParsing="false" onAction="#iniciar" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #88e1ff;" text="Log in" textFill="#217eff" />
             <Label alignment="CENTER" contentDisplay="CENTER" layoutX="280.0" layoutY="348.0" prefHeight="89.0" prefWidth="255.0" style="-fx-border-color: black;" stylesheets="@estilo.css" text="REGISTER" textFill="#81cd9d" wrapText="true">
                <font>
                   <Font name="Bodoni MT Bold" size="48.0" />
                </font>
             </Label>
-            <Button layoutX="359.0" layoutY="458.0" mnemonicParsing="false" onAction="#home" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #88e1ff;" text="Log in" textFill="#217eff" />
+            <Button layoutX="359.0" layoutY="458.0" mnemonicParsing="false" onAction="#registrar" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #88e1ff;" text="Register" textFill="#217eff" />
             <Label alignment="CENTER" contentDisplay="CENTER" layoutX="372.0" layoutY="275.0" prefHeight="52.0" prefWidth="71.0" stylesheets="@estilo.css" text="OR" textFill="#81cd9d" wrapText="true">
                <font>
                   <Font name="Bodoni MT Bold" size="30.0" />

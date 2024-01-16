@@ -12,5 +12,7 @@ public class FXMLPaths {
 	public static String COMPRA = "/app/gui/loginin/PantallaCompra.fxml";
 	public static String ACEPTADA = "/app/gui/loginin/PantallaCompraAceptada.fxml";
 	public static String PANTALLAINIREGI = "/app/gui/loginin/PantallaIniRegi.fxml";
+	public static String INICIAR = "/app/gui/loginin/IniciarSesion2.fxml";
+	public static String REGISTRAR = "/app/gui/loginin/Registro.fxml";
 
 }

@@ -8,94 +8,40 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
-=======
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="815.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.registrar.registrarController">
    <children>
-      <AnchorPane id="fondo" fx:id="fondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" stylesheets="@app.css">
-         <children>
-<<<<<<< HEAD
-            <TextField fx:id="usuario1" alignment="CENTER" layoutX="317.0" layoutY="172.0" prefHeight="42.0" prefWidth="179.0" promptText="User/E-mail : " style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;" stylesheets="@app.css">
-=======
-<<<<<<< HEAD
-            <TextField fx:id="usuario1" alignment="CENTER" layoutX="99.0" layoutY="156.0" prefHeight="42.0" prefWidth="168.0" promptText="Nombre" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;" stylesheets="@app.css">
-=======
-            <TextField fx:id="usuario1" alignment="CENTER" layoutX="317.0" layoutY="148.0" prefHeight="42.0" prefWidth="179.0" promptText="Usuario/E-mail : " style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;" stylesheets="@app.css">
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </TextField>
-<<<<<<< HEAD
-            <Button layoutX="195.0" layoutY="519.0" mnemonicParsing="false" onAction="#entrar" prefHeight="73.0" prefWidth="168.0" style="-fx-background-color: #e3abe4; -fx-border-color: lightyellow; -fx-border-radius: 40; -fx-background-radius: 40;" text="Register" textFill="WHITE">
-=======
-<<<<<<< HEAD
-            <Button layoutX="99.0" layoutY="549.0" mnemonicParsing="false" onAction="#entrar" prefHeight="73.0" prefWidth="168.0" style="-fx-background-color: black; -fx-border-color: lightyellow; -fx-border-radius: 40; -fx-background-radius: 40;" text="Entrar" textFill="WHITE">
-=======
-            <Button layoutX="195.0" layoutY="519.0" mnemonicParsing="false" onAction="#entrar" prefHeight="73.0" prefWidth="168.0" style="-fx-background-color: #e3abe4; -fx-border-color: lightyellow; -fx-border-radius: 40; -fx-background-radius: 40;" text="Registrarme" textFill="WHITE">
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
-               <effect>
-                  <Blend />
-               </effect>
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Button>
-<<<<<<< HEAD
-            <Button layoutX="454.0" layoutY="519.0" mnemonicParsing="false" onAction="#salir" prefHeight="73.0" prefWidth="162.0" style="-fx-background-color: black; -fx-background-radius: 40; -fx-border-color: lightyellow; -fx-border-radius: 40;" text="Go out" textFill="WHITE">
-               <font>
-                  <Font size="14.0" />
-               </font></Button>
-            <PasswordField fx:id="contra1" alignment="CENTER" layoutX="317.0" layoutY="400.0" prefHeight="42.0" prefWidth="179.0" promptText="Password : " style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;">
-               <font>
-                  <Font size="14.0" />
-               </font></PasswordField>
-=======
-<<<<<<< HEAD
-            <Button layoutX="372.0" layoutY="549.0" mnemonicParsing="false" onAction="#salir" prefHeight="73.0" prefWidth="162.0" style="-fx-background-color: black; -fx-background-radius: 40; -fx-border-color: lightyellow; -fx-border-radius: 40;" text="Volver" textFill="WHITE" />
-            <PasswordField fx:id="contra1" alignment="CENTER" layoutX="94.0" layoutY="313.0" prefHeight="42.0" prefWidth="179.0" promptText="Contraseña..." style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;" />
-=======
-            <Button layoutX="454.0" layoutY="519.0" mnemonicParsing="false" onAction="#salir" prefHeight="73.0" prefWidth="162.0" style="-fx-background-color: black; -fx-background-radius: 40; -fx-border-color: lightyellow; -fx-border-radius: 40;" text="Salir" textFill="WHITE" />
-            <PasswordField fx:id="contra1" alignment="CENTER" layoutX="310.0" layoutY="373.0" prefHeight="42.0" prefWidth="179.0" promptText="Contraseña : " style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;" />
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
-            <Label id="permitido" fx:id="permitido" layoutX="234.0" layoutY="463.0" prefHeight="73.0" prefWidth="376.0" style="-fx-border-color: black;" text="Acceso permitido" textFill="#3c9027" visible="false">
-               <font>
-                  <Font name="Bodoni MT" size="48.0" />
-               </font>
-            </Label>
-            <Label id="permitido" fx:id="denegado" layoutX="228.0" layoutY="465.0" prefHeight="70.0" prefWidth="376.0" style="-fx-border-color: black;" text="Acceso denegado" textFill="#ff2828" visible="false">
-               <font>
-                  <Font name="Bodoni MT" size="48.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" layoutX="226.0" layoutY="36.0" prefHeight="92.0" prefWidth="347.0" style="-fx-border-color: black;" text="REGISTER" textFill="#81cd9d">
-               <font>
-                  <Font name="Bodoni MT Bold" size="48.0" />
-               </font>
-            </Label>
-<<<<<<< HEAD
-            <PasswordField fx:id="contra11" alignment="CENTER" layoutX="317.0" layoutY="282.0" prefHeight="42.0" prefWidth="179.0" promptText="Name and surnames :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;">
-               <font>
-                  <Font size="14.0" />
-               </font></PasswordField>
-=======
-<<<<<<< HEAD
-            <TextField fx:id="usuario11" alignment="CENTER" layoutX="94.0" layoutY="212.0" prefHeight="42.0" prefWidth="179.0" promptText="Apellidos" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;" stylesheets="@app.css">
-               <font>
-                  <Font name="System Italic" size="14.0" />
-               </font>
-            </TextField>
-            <PasswordField fx:id="contra11" alignment="CENTER" layoutX="102.0" layoutY="372.0" prefHeight="42.0" prefWidth="179.0" promptText="Repetir Contraseña..." style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;" />
-=======
-            <PasswordField fx:id="contra11" alignment="CENTER" layoutX="317.0" layoutY="255.0" prefHeight="42.0" prefWidth="179.0" promptText="Nombre y apellidos :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;" />
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
-         </children>
-      </AnchorPane>
+      <TextField alignment="CENTER" layoutX="327.0" layoutY="230.0" prefHeight="42.0" prefWidth="179.0" promptText="User/E-mail :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;" stylesheets="@app.css">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button layoutX="194.0" layoutY="392.0" mnemonicParsing="false" onAction="#entrar" prefHeight="73.0" prefWidth="168.0" style="-fx-background-color: #e3abe4; -fx-border-color: lightyellow; -fx-border-radius: 40; -fx-background-radius: 40;" text="Register" textFill="WHITE">
+         <effect>
+            <Blend />
+         </effect></Button>
+      <Button layoutX="471.0" layoutY="392.0" mnemonicParsing="false" onAction="#home" prefHeight="73.0" prefWidth="162.0" style="-fx-background-color: black; -fx-background-radius: 40; -fx-border-color: lightyellow; -fx-border-radius: 40;" text="Go out" textFill="WHITE" />
+      <PasswordField fx:id="contra1" alignment="CENTER" layoutX="327.0" layoutY="310.0" prefHeight="42.0" prefWidth="179.0" promptText="Password :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;">
+         <font>
+            <Font size="14.0" />
+         </font></PasswordField>
+      <Label id="permitido" fx:id="permitido" layoutX="234.0" layoutY="463.0" prefHeight="73.0" prefWidth="376.0" style="-fx-border-color: black;" text="Acceso permitido" textFill="#3c9027" visible="false">
+         <font>
+            <Font name="Bodoni MT" size="48.0" />
+         </font>
+      </Label>
+      <Label id="permitido" fx:id="denegado" layoutX="228.0" layoutY="465.0" prefHeight="70.0" prefWidth="376.0" style="-fx-border-color: black;" text="Acceso denegado" textFill="#ff2828" visible="false">
+         <font>
+            <Font name="Bodoni MT" size="48.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="243.0" layoutY="35.0" prefHeight="92.0" prefWidth="347.0" style="-fx-border-color: black;" text="REGISTER" textFill="#81cd9d">
+         <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" layoutX="327.0" layoutY="155.0" prefHeight="42.0" prefWidth="179.0" promptText="Name and surnames :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;" stylesheets="@app.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
    </children>
 </AnchorPane>

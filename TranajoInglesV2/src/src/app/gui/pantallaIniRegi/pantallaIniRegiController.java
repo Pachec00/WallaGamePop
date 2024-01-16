@@ -18,4 +18,22 @@ public class pantallaIniRegiController extends AppController {
 		cambiarVista(FXMLPaths.PANTALLA_2);
 
 	}
+	
+	
+
+	@FXML
+	public void iniciar() {
+
+		cambiarVista(FXMLPaths.INICIAR);
+
+	}
+	
+	
+
+	@FXML
+	public void registrar() {
+
+		cambiarVista(FXMLPaths.REGISTRAR);
+
+	}
 }
