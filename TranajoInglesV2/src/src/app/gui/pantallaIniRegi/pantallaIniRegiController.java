@@ -7,7 +7,7 @@ import javafx.scene.control.Button;
 import src.app.gui.AppController;
 import src.app.gui.FXMLPaths;
 
-public class pantallaAceptadaController extends AppController {
+public class pantallaIniRegiController extends AppController {
 
 	@FXML
 	private Button boton;
