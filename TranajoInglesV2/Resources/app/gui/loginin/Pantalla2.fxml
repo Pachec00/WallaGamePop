@@ -66,6 +66,6 @@
             <Image url="@carrito.png" />
          </image>
       </ImageView>
-      <Button layoutX="647.0" layoutY="138.0" mnemonicParsing="false" onAction="#entrarP2" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="Shopping car" textFill="#e9f2ff" />
+      <Button layoutX="647.0" layoutY="138.0" mnemonicParsing="false" onAction="#entrarCarrito" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="Shopping car" textFill="#e9f2ff" />
    </children>
 </AnchorPane>
