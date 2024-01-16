@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.infoProducto.productoController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.infoProducto.productoController">
    <children>
       <Label alignment="CENTER" layoutX="197.0" layoutY="30.0" prefHeight="62.0" prefWidth="388.0" style="-fx-border-color: black;" stylesheets="@estilo.css" text="INFORMATION" textFill="#81cd9d">
          <font>
@@ -17,11 +17,6 @@
          </font>
       </Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#134080" height="200.0" layoutX="275.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="250.0" />
-      <ImageView fitHeight="188.0" fitWidth="151.0" layoutX="326.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@star.jpg" />
-         </image>
-      </ImageView>
       <RadioButton layoutX="178.0" layoutY="326.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="147.0" text="Name :" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
@@ -32,7 +27,7 @@
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="182.0" layoutY="400.0" mnemonicParsing="false" text="Price : 40 €" textFill="#e9f2ff">
+      <RadioButton layoutX="182.0" layoutY="400.0" mnemonicParsing="false" text="Price : 15 €" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font>
@@ -65,11 +60,16 @@
             <Image url="@home.png" />
          </image>
       </ImageView>
-      <Label contentDisplay="CENTER" graphicTextGap="8.0" layoutX="384.0" layoutY="321.0" lineSpacing="8.0" prefHeight="178.0" prefWidth="308.0" style="-fx-border-color: black;" text="Starfield is a rol videogame of science fiction developed by Bethesda Game Studios. During the conference of Microsoft + Bethesda of E3 2021, it was revealed that Starfield would be launched for Xbox Series and PC in 6 of September of 2023." textAlignment="CENTER" textFill="#e9f2ff" wrapText="true" />
-      <Label layoutX="255.0" layoutY="327.0" prefHeight="20.0" prefWidth="69.0" text="Starfield" textFill="#e9f2ff">
+      <Label contentDisplay="CENTER" graphicTextGap="8.0" layoutX="384.0" layoutY="321.0" lineSpacing="8.0" prefHeight="186.0" prefWidth="322.0" style="-fx-border-color: black;" text="Demon's Souls is an action role-playing video game developed by Bluepoint Games, with assistance from Japan Studio, and published by Sony Interactive Entertainment. It is a remake of Demon's Souls, originally developed by FromSoftware and published for the PlayStation 3 in 2009." textAlignment="CENTER" textFill="#e9f2ff" wrapText="true" />
+      <Label layoutX="255.0" layoutY="327.0" prefHeight="20.0" prefWidth="96.0" text="Demons Souls" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
+      <ImageView fitHeight="178.0" fitWidth="156.0" layoutX="330.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@demonsSoul.PNG" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
