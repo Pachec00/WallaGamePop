@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="815.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.iniciarSesion.iniciarSesionController">
    <children>
-      <TextField alignment="CENTER" layoutX="327.0" layoutY="157.0" prefHeight="42.0" prefWidth="179.0" promptText="User/E-mail :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;" stylesheets="@app.css">
+      <TextField alignment="CENTER" layoutX="327.0" layoutY="157.0" prefHeight="42.0" prefWidth="179.0" promptText="User/E-mail :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;">
          <font>
             <Font size="14.0" />
          </font></TextField>
@@ -19,7 +19,7 @@
             <Blend />
          </effect></Button>
       <Button layoutX="469.0" layoutY="371.0" mnemonicParsing="false" onAction="#home" prefHeight="73.0" prefWidth="162.0" style="-fx-background-color: black; -fx-background-radius: 40; -fx-border-color: lightyellow; -fx-border-radius: 40;" text="Go out" textFill="WHITE" />
-      <PasswordField fx:id="contra1" alignment="CENTER" layoutX="327.0" layoutY="240.0" prefHeight="42.0" prefWidth="179.0" promptText="Password :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;">
+      <PasswordField alignment="CENTER" layoutX="327.0" layoutY="240.0" prefHeight="42.0" prefWidth="179.0" promptText="Password :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-color: black; -fx-background-radius: 30; -fx-text-fill: white;">
          <font>
             <Font size="14.0" />
          </font></PasswordField>
