@@ -9,7 +9,11 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
+<<<<<<< HEAD
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+=======
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.infoProducto.productoController">
+>>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
    <children>
       <Label alignment="CENTER" layoutX="197.0" layoutY="30.0" prefHeight="62.0" prefWidth="388.0" style="-fx-border-color: black;" stylesheets="@estilo.css" text="INFORMATION" textFill="#81cd9d">
          <font>
@@ -47,19 +51,19 @@
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <Button layoutX="307.0" layoutY="565.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="185.0" style="-fx-background-color: #81cd9d;" text="ADD TO CART" textFill="#e9f2ff">
+      <Button layoutX="307.0" layoutY="565.0" mnemonicParsing="false" onAction="#add" prefHeight="69.0" prefWidth="185.0" style="-fx-background-color: #81cd9d;" text="ADD TO CART" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font></Button>
-      <ImageView fitHeight="69.0" fitWidth="77.0" layoutX="692.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="69.0" fitWidth="77.0" layoutX="666.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/carrito.png" />
+            <Image url="@carrito.png" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#40404000" height="83.0" layoutX="671.0" layoutY="19.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
-      <Button layoutX="679.0" layoutY="110.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Shopping car" textFill="#e9f2ff" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#40404000" height="83.0" layoutX="645.0" layoutY="19.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
+      <Button layoutX="653.0" layoutY="110.0" mnemonicParsing="false" onAction="#carrito" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Shopping car" textFill="#e9f2ff" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="21.0" layoutY="16.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
-      <Button layoutX="29.0" layoutY="110.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
+      <Button layoutX="29.0" layoutY="110.0" mnemonicParsing="false" onAction="#home" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
       <ImageView fitHeight="89.0" fitWidth="96.0" layoutX="28.0" layoutY="16.0">
          <image>
             <Image url="@home.png" />

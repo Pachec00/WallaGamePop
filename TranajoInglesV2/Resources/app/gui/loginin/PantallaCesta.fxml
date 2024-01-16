@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.cesta.cestaController">
    <children>
       <Label alignment="CENTER" layoutX="208.0" layoutY="46.0" prefHeight="105.0" prefWidth="385.0" style="-fx-border-color: black;" text="SHOOPING CAR" textFill="#81cd9d">
          <font>
@@ -18,7 +18,7 @@
       </Label>
       <ImageView fitHeight="76.0" fitWidth="82.0" layoutX="669.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/carrito.png" />
+            <Image url="@carrito.png" />
          </image>
       </ImageView>
       <Label layoutX="484.0" layoutY="226.0" prefHeight="39.0" prefWidth="76.0">
@@ -37,8 +37,8 @@
          </font>
       </Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="24.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
-      <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
-      <Button layoutX="296.0" layoutY="593.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: #81cd9d;" text="BUY" textFill="#e9f2ff">
+      <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" onAction="#home" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
+      <Button layoutX="296.0" layoutY="593.0" mnemonicParsing="false" onAction="#compra" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: #81cd9d;" text="BUY" textFill="#e9f2ff">
          <font>
             <Font size="16.0" />
          </font>
