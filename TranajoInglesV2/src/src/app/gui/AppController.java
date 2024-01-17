@@ -34,5 +34,13 @@ public class AppController {
 			throw new RuntimeException(e);
 		}
 	}
+	
+	
+	public AppController tenerController(String fxml) {
+		URL url = App.class.getResource(fxml);
+		FXMLLoader loader = new FXMLLoader(url);
+		return loader.getController();
+	}
+	
 
 }

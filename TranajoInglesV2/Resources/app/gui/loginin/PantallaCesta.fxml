@@ -21,21 +21,7 @@
             <Image url="@carrito.png" />
          </image>
       </ImageView>
-      <Label layoutX="484.0" layoutY="226.0" prefHeight="39.0" prefWidth="76.0">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="486.0" layoutY="285.0" prefHeight="39.0" prefWidth="148.0">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="486.0" layoutY="354.0">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
+      <Label fx:id="nombre1" layoutX="254.0" layoutY="211.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="24.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
       <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" onAction="#home" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
       <Button layoutX="296.0" layoutY="593.0" mnemonicParsing="false" onAction="#compra" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: #81cd9d;" text="BUY" textFill="#e9f2ff">
@@ -51,5 +37,16 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="652.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
+      <ImageView fx:id="imagen1" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imagen2" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imagen3" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imagen4" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="precio1" layoutX="254.0" layoutY="246.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
+      <Label fx:id="precio2" layoutX="254.0" layoutY="332.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
+      <Label fx:id="precio3" layoutX="254.0" layoutY="423.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
+      <Label fx:id="precio4" layoutX="254.0" layoutY="512.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
+      <Label fx:id="nombre2" layoutX="254.0" layoutY="297.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
+      <Label fx:id="nombre3" layoutX="254.0" layoutY="388.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
+      <Label fx:id="nombre4" layoutX="254.0" layoutY="476.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
    </children>
 </AnchorPane>

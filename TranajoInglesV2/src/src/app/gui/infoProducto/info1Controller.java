@@ -1,7 +1,7 @@
 package src.app.gui.infoProducto;
 
 import javafx.fxml.FXML;
-
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import src.app.gui.AppController;
@@ -19,25 +19,25 @@ public class info1Controller extends AppController {
 		cambiarVista(FXMLPaths.PANTALLA_2);
 
 	}
-	
-	
-	
+
 	@FXML
 	public void carrito() {
 
 		cambiarVista(FXMLPaths.CARRITO);
 
 	}
-	
+
 	@FXML
 	public void add() {
+		cambiarVista(FXMLPaths.PANTALLA_2);
 
-	cestaController controller =	(cestaController) cambiarVista(FXMLPaths.PANTALLA_2);
-	
-	controller.setNombre1("Starfield");
-	controller.setPrecio1("40 €");
-	Image image = new Image("/app/gui/loginin/star.PNG");
-	controller.setImage1(image);
+		FXMLLoader loader = new FXMLLoader(getClass().getResource(FXMLPaths.CARRITO));
+		cestaController controller = loader.getController();
+
+		controller.setNombre1("Starfield");
+		controller.setPrecio1("40 €");
+		Image image = new Image("/app/gui/loginin/star.PNG");
+		controller.setImage1(image);
 
 	}
 }

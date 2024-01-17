@@ -1,7 +1,7 @@
 package src.app.gui.infoProducto;
 
 import javafx.fxml.FXML;
-
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import src.app.gui.AppController;
@@ -19,25 +19,25 @@ public class info3Controller extends AppController {
 		cambiarVista(FXMLPaths.PANTALLA_2);
 
 	}
-	
-	
-	
+
 	@FXML
 	public void carrito() {
 
 		cambiarVista(FXMLPaths.CARRITO);
 
 	}
-	
+
 	@FXML
 	public void add() {
 
-	cestaController controller =	(cestaController) cambiarVista(FXMLPaths.PANTALLA_2);
-	
-	controller.setNombre3("Demons Souls");
-	controller.setPrecio3("15 €");
-	Image image = new Image("/app/gui/loginin/demonsSoul.PNG");
-	controller.setImage3(image);
+		cambiarVista(FXMLPaths.PANTALLA_2);
+		FXMLLoader loader = new FXMLLoader(getClass().getResource(FXMLPaths.CARRITO));
+		cestaController controller = loader.getController();
+
+		controller.setNombre3("Demons Souls");
+		controller.setPrecio3("15 €");
+		Image image = new Image("/app/gui/loginin/demonsSoul.PNG");
+		controller.setImage3(image);
 
 	}
 }
