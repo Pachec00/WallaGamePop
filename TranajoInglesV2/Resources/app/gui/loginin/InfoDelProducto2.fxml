@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.infoProducto.productoController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.infoProducto.info2Controller">
    <children>
       <Label alignment="CENTER" layoutX="197.0" layoutY="30.0" prefHeight="62.0" prefWidth="388.0" style="-fx-border-color: black;" stylesheets="@estilo.css" text="INFORMATION" textFill="#81cd9d">
          <font>
@@ -61,7 +61,7 @@
          </image>
       </ImageView>
       <Label contentDisplay="CENTER" graphicTextGap="8.0" layoutX="384.0" layoutY="321.0" lineSpacing="8.0" prefHeight="178.0" prefWidth="308.0" style="-fx-border-color: black;" text="The Last of Us is an action, adventure, and survival horror game franchise created by Naughty Dog and Sony Interactive Entertainment. The series is set in a post-apocalyptic United States ravaged by cannibalistic creatures infected by a fungus." textAlignment="CENTER" textFill="#e9f2ff" wrapText="true" />
-      <Label layoutX="255.0" layoutY="327.0" prefHeight="20.0" prefWidth="96.0" text="The last ofUs" textFill="#e9f2ff">
+      <Label layoutX="255.0" layoutY="327.0" prefHeight="20.0" prefWidth="96.0" text="The last of Us" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font>
