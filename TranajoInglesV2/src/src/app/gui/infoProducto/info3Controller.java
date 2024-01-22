@@ -31,13 +31,6 @@ public class info3Controller extends AppController {
 	public void add() {
 
 		cambiarVista(FXMLPaths.PANTALLA_2);
-		FXMLLoader loader = new FXMLLoader(getClass().getResource(FXMLPaths.CARRITO));
-		cestaController controller = loader.getController();
-
-		controller.setNombre3("Demons Souls");
-		controller.setPrecio3("15 €");
-		Image image = new Image("/app/gui/loginin/demonsSoul.PNG");
-		controller.setImage3(image);
 
 	}
 }

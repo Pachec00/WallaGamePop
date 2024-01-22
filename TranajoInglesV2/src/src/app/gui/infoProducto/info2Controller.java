@@ -30,13 +30,6 @@ public class info2Controller extends AppController {
 	@FXML
 	public void add() {
 		cambiarVista(FXMLPaths.PANTALLA_2);
-		FXMLLoader loader = new FXMLLoader(getClass().getResource(FXMLPaths.CARRITO));
-		cestaController controller = loader.getController();
-
-		controller.setNombre2("The last of Us");
-		controller.setPrecio2("36 €");
-		Image image = new Image("/app/gui/loginin/lastofUs.PNG");
-		controller.setImage2(image);
 
 	}
 }

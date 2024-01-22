@@ -31,13 +31,6 @@ public class info1Controller extends AppController {
 	public void add() {
 		cambiarVista(FXMLPaths.PANTALLA_2);
 
-		FXMLLoader loader = new FXMLLoader(getClass().getResource(FXMLPaths.CARRITO));
-		cestaController controller = loader.getController();
-
-		controller.setNombre1("Starfield");
-		controller.setPrecio1("40 €");
-		Image image = new Image("/app/gui/loginin/star.PNG");
-		controller.setImage1(image);
 
 	}
 }

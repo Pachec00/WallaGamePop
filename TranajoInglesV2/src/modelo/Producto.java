@@ -12,10 +12,12 @@ public class Producto {
 	private BigDecimal precio;
 	private String descripcion;
 	private Integer idUsuario;
+	private String imagen;
 
-	public Producto(String nombre, BigDecimal precio) {
+	public Producto(String nombre, String imagen, BigDecimal precio) {
 		this.nombre = nombre;
 		this.precio = precio;
+		this.imagen=imagen;
 	}
 	
 	public Producto() {

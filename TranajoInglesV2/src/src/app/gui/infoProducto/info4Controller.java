@@ -30,12 +30,6 @@ public class info4Controller extends AppController {
 	@FXML
 	public void add() {
 		cambiarVista(FXMLPaths.PANTALLA_2);
-		FXMLLoader loader = new FXMLLoader(getClass().getResource(FXMLPaths.CARRITO));
-		cestaController controller = loader.getController();
-		controller.setNombre4("Spiderman");
-		controller.setPrecio4("20 €");
-		Image image = new Image("/app/gui/loginin/spiderman.PNG");
-		controller.setImage4(image);
 
 	}
 }
