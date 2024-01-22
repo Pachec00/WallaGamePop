@@ -1,17 +1,18 @@
 package src.app.gui.infoProducto;
 
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
-import javafx.scene.image.Image;
+import javafx.scene.control.Label;
 import src.app.gui.AppController;
 import src.app.gui.FXMLPaths;
-import src.app.gui.cesta.cestaController;
 
 public class info1Controller extends AppController {
 
 	@FXML
 	private Button boton;
+
+	@FXML
+	private Label contador;
 
 	@FXML
 	public void home() {
@@ -30,7 +31,6 @@ public class info1Controller extends AppController {
 	@FXML
 	public void add() {
 		cambiarVista(FXMLPaths.PANTALLA_2);
-
 
 	}
 }

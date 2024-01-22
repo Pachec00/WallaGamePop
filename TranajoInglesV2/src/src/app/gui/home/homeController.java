@@ -2,6 +2,7 @@ package src.app.gui.home;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import src.app.gui.AppController;
 import src.app.gui.FXMLPaths;
 
@@ -9,6 +10,9 @@ public class homeController extends AppController {
 
 	@FXML
 	private Button boton;
+	
+    @FXML
+    private Label contador;
 
 	@FXML
 	public void entrarP1() {

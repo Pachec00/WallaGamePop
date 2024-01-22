@@ -73,5 +73,10 @@
          </image>
       </ImageView>
       <Circle fill="WHITE" layoutX="755.0" layoutY="27.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="contador" layoutX="750.0" layoutY="14.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
