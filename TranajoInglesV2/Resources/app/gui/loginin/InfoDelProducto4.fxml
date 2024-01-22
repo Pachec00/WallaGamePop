@@ -6,10 +6,11 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.infoProducto.info4Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.infoProducto.info4Controller">
    <children>
       <Label alignment="CENTER" layoutX="197.0" layoutY="30.0" prefHeight="62.0" prefWidth="388.0" style="-fx-border-color: black;" stylesheets="@estilo.css" text="INFORMATION" textFill="#81cd9d">
          <font>
@@ -66,5 +67,6 @@
             <Image url="@spiderman.PNG" />
          </image>
       </ImageView>
+      <Circle fill="WHITE" layoutX="749.0" layoutY="27.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
    </children>
 </AnchorPane>
