@@ -55,17 +55,12 @@
          </children>
       </Pane>
       <Slider layoutX="734.0" layoutY="210.0" orientation="VERTICAL" prefHeight="409.0" prefWidth="51.0" />
-<<<<<<< HEAD
+
       <Button fx:id="botonStar" layoutX="170.0" layoutY="367.0" mnemonicParsing="false" onAction="#entrarP1" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="See the product" textFill="#e9f2ff" />
       <Button fx:id="botonDemon" layoutX="170.0" layoutY="619.0" mnemonicParsing="false" onAction="#entrarP3" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="See the product" textFill="#e9f2ff" />
       <Button fx:id="botonLast" layoutX="495.0" layoutY="367.0" mnemonicParsing="false" onAction="#entrarP2" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="See the product" textFill="#e9f2ff" />
       <Button fx:id="botonSpider" layoutX="507.0" layoutY="619.0" mnemonicParsing="false" onAction="#entrarP4" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="See the product" textFill="#e9f2ff" />
-=======
-      <Button fx:id="btnStar" layoutX="170.0" layoutY="367.0" mnemonicParsing="false" onAction="#entrarP1" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="See the product" textFill="#e9f2ff" />
-      <Button layoutX="170.0" layoutY="619.0" mnemonicParsing="false" onAction="#entrarP3" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="See the product" textFill="#e9f2ff" />
-      <Button layoutX="495.0" layoutY="367.0" mnemonicParsing="false" onAction="#entrarP2" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="See the product" textFill="#e9f2ff" />
-      <Button layoutX="507.0" layoutY="619.0" mnemonicParsing="false" onAction="#entrarP4" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="See the product" textFill="#e9f2ff" />
->>>>>>> branch 'main' of https://github.com/Pachec00/WallaGamePop.git
+
       <TextField layoutX="269.0" layoutY="144.0" prefHeight="25.0" prefWidth="261.0" promptText="Search in Wallagamepop..." />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="634.0" layoutY="42.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
       <ImageView fitHeight="76.0" fitWidth="82.0" layoutX="652.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
