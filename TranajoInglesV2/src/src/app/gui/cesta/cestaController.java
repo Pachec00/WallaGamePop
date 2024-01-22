@@ -20,15 +20,6 @@ public class cestaController extends AppController {
 	private Button boton;
 
 	
-	
-	
-    public void create() {
-    Producto producto1 = new Producto("Producto 1", "imagen1.jpg", new BigDecimal(10.99));
-    Producto producto2 = new Producto("Producto 2", "imagen2.jpg", new BigDecimal(15.99));
-    Producto producto3 = new Producto("Producto 3", "imagen3.jpg", new BigDecimal(20.99));
-    Producto producto4 = new Producto("Producto 4", "imagen4.jpg", new BigDecimal(25.99));
-
-
 
 
 	
