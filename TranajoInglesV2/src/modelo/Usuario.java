@@ -13,6 +13,8 @@ public class Usuario {
 	private String usuario;
 	private String contraseña;
 	private List<Producto> listaProductos;
+	
+//	crear producto y añadir usuario
 
 	public Integer getIdUsuario() {
 		return idUsuario;
