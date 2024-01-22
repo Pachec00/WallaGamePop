@@ -9,7 +9,7 @@ public class App extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 
-		AppController controller = new AppController(primaryStage);
+		AppShopController controller = new AppShopController(primaryStage);
 		controller.cambiarVista(FXMLPaths.LOGIN);
 		primaryStage.show();
 		primaryStage.setMaxHeight(710);

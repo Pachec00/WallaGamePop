@@ -3,10 +3,10 @@ package src.app.gui.infoProducto;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import src.app.gui.AppController;
+import src.app.gui.AppShopController;
 import src.app.gui.FXMLPaths;
 
-public class info1Controller extends AppController {
+public class info1Controller extends AppShopController {
 
 	@FXML
 	private Button boton;
@@ -28,9 +28,5 @@ public class info1Controller extends AppController {
 
 	}
 
-	@FXML
-	public void add() {
-		cambiarVista(FXMLPaths.PANTALLA_2);
 
-	}
 }
