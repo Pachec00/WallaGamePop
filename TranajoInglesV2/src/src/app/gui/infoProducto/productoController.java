@@ -16,7 +16,7 @@ public class productoController extends AppController {
 	public void home() {
 
 		cambiarVista(FXMLPaths.PANTALLA_2);
-
+		
 	}
 	
 	

@@ -13,7 +13,7 @@ public class homeController extends AppController {
 	@FXML
 	public void entrarP1() {
 		cambiarVista(FXMLPaths.PRO_1);
-
+		
 	}
 
 	@FXML

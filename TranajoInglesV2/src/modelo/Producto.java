@@ -12,6 +12,7 @@ public class Producto {
 	private BigDecimal precio;
 	private String descripcion;
 	private Integer idUsuario;
+	
 	public Integer getIdProducto() {
 		return idProducto;
 	}
