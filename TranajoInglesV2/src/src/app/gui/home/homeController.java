@@ -2,13 +2,17 @@ package src.app.gui.home;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import src.app.gui.AppController;
+import javafx.scene.control.Label;
+import src.app.gui.AppShopController;
 import src.app.gui.FXMLPaths;
 
-public class homeController extends AppController {
+public class homeController extends AppShopController {
 
 	@FXML
 	private Button boton;
+	
+    @FXML
+    private Label contador;
 
 	@FXML
 	public void entrarP1() {

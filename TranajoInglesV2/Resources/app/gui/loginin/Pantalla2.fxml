@@ -69,7 +69,7 @@
       </ImageView>
       <Button layoutX="647.0" layoutY="138.0" mnemonicParsing="false" onAction="#entrarCarrito" style="-fx-background-color: #81cd9d;" stylesheets="@estilo.css" text="Shopping car" textFill="#e9f2ff" />
       <Circle fill="WHITE" layoutX="734.0" layoutY="42.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
-      <Label layoutX="729.0" layoutY="29.0" text="0">
+      <Label fx:id="labelContador" layoutX="729.0" layoutY="29.0">
          <font>
             <Font size="18.0" />
          </font>
