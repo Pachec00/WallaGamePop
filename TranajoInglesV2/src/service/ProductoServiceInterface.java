@@ -1,6 +1,5 @@
 package service;
 
-import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -13,4 +12,8 @@ public interface ProductoServiceInterface {
 	public List<Producto> consultarListaProductoService(Usuario us) throws SQLException, ListaVaciaException;
 	
 	public void insertarProductoService(Producto prod) throws SQLException;
+
+	
+
+
 }

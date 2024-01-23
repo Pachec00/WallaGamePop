@@ -16,20 +16,25 @@ public class homeController extends AppShopController {
 
 	@FXML
 	public void entrarP1() {
+		
+	
+		
 		cambiarVista(FXMLPaths.PRO_1);
+		
 		
 	}
 
 	@FXML
 	public void entrarP2() {
 
-		cambiarVista(FXMLPaths.PRO_2);
 
+		cambiarVista(FXMLPaths.PRO_2);
 	}
 
 	@FXML
 	public void entrarP3() {
 
+	
 		cambiarVista(FXMLPaths.PRO_3);
 
 	}
@@ -37,14 +42,22 @@ public class homeController extends AppShopController {
 	@FXML
 	public void entrarP4() {
 
-		cambiarVista(FXMLPaths.PRO_4);
+		
+			cambiarVista(FXMLPaths.PRO_4);
+			
+		
 
 	}
 
 	@FXML
 	public void entrarCarrito() {
 
-		cambiarVista(FXMLPaths.CARRITO);
+		if(usuario==null) {
+			cambiarVista(FXMLPaths.INICIAR);
+		}else {
+			cambiarVista(FXMLPaths.CARRITO);
+			
+		}
 
 	}
 

@@ -1,5 +1,6 @@
 package modelo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import lombok.Data;
@@ -64,4 +65,13 @@ public class Usuario {
 		this.listaProductos = listaProductos;
 	}
 
+	@Override
+	public String toString() {
+		return "Usuario [idUsuario=" + idUsuario + ", nombre=" + nombre + ", apellido=" + apellido + ", usuario="
+				+ usuario + ", contraseña=" + contraseña + ", listaProductos=" + listaProductos + "]";
+	}
+
+	public void crearLista() {
+		listaProductos = new ArrayList<Producto>();
+	}
 }

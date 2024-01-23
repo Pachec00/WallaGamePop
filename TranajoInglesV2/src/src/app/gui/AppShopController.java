@@ -20,19 +20,24 @@ public class AppShopController extends AppController {
 		super(stage);
 
 		cont = 0;
-		
+
 	}
 
 	@FXML
 	public void add() {
-		cont++;
-		cambiarVista(FXMLPaths.PANTALLA_2);
+		if(usuario==null) {
+			cambiarVista(FXMLPaths.INICIAR);
+		}else {
+			cont++;			
+			cambiarVista(FXMLPaths.PANTALLA_2);
+		}
 
 	}
 
 	public void initialize() {
+		
 		labelContador.setText(cont.toString());
-System.out.println(cont);
+		System.out.println(cont);
 	}
 
 }

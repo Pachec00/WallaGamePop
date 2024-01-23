@@ -13,7 +13,7 @@ public class AppController {
 
 	public static Stage primaryStage;
 
-	protected Usuario usuario;
+	protected static Usuario usuario;
 
 	protected UsuarioService usuSer;
 
