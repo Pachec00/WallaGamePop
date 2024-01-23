@@ -24,9 +24,4 @@ public class info4Controller extends AppShopController {
 
 	}
 
-	@FXML
-	public void add() {
-		cambiarVista(FXMLPaths.PANTALLA_2);
-
-	}
 }
