@@ -53,7 +53,7 @@ public class homeController extends AppShopController {
 	public void entrarCarrito() {
 
 		if(usuario==null) {
-			cambiarVista(FXMLPaths.INICIAR);
+			cambiarVista(FXMLPaths.PANTALLAINIREGI);
 		}else {
 			cambiarVista(FXMLPaths.CARRITO);
 			

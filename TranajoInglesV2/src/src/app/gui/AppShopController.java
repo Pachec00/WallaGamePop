@@ -26,7 +26,7 @@ public class AppShopController extends AppController {
 	@FXML
 	public void add() {
 		if(usuario==null) {
-			cambiarVista(FXMLPaths.INICIAR);
+			cambiarVista(FXMLPaths.PANTALLAINIREGI);
 		}else {
 			cont++;			
 			cambiarVista(FXMLPaths.PANTALLA_2);
