@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.compra.compraController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.compra.compraController">
    <children>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;">
          <children>
@@ -100,47 +100,46 @@
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <Label layoutX="42.0" layoutY="234.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
-            <Label layoutX="42.0" layoutY="269.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
-            <Label layoutX="42.0" layoutY="299.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
-            <Label layoutX="42.0" layoutY="299.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
+            <Label fx:id="labelPrimero" layoutX="42.0" layoutY="234.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
+            <Label fx:id="labelSegundo" layoutX="42.0" layoutY="269.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
+            <Label fx:id="labelTercero" layoutX="42.0" layoutY="299.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
             <Label layoutX="152.0" layoutY="203.0" prefHeight="25.0" prefWidth="56.0" text="Amount" textFill="#e9f2ff" />
             <Line endX="466.5" endY="33.0" layoutX="-326.0" layoutY="177.0" startX="466.5" startY="168.0" stroke="WHITE" />
-            <Label layoutX="163.0" layoutY="234.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
-            <Label layoutX="163.0" layoutY="323.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
-            <Label layoutX="163.0" layoutY="297.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
-            <Label layoutX="163.0" layoutY="268.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
+            <Label fx:id="cantidadPrimero" layoutX="163.0" layoutY="234.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
+            <Label fx:id="cantidadCuarta" layoutX="163.0" layoutY="323.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
+            <Label fx:id="cantidadTercero" layoutX="163.0" layoutY="297.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
+            <Label fx:id="cantidadSegundo" layoutX="163.0" layoutY="268.0" prefHeight="19.0" prefWidth="90.0" textFill="#e9f2ff" />
             <Label layoutX="52.0" layoutY="400.0" prefHeight="39.0" prefWidth="76.0" text="Subtotal :" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="151.0" layoutY="437.0" textFill="#e9f2ff">
+            <Label fx:id="subPrimero" layoutX="151.0" layoutY="437.0" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="151.0" layoutY="462.0" textFill="#e9f2ff">
+            <Label fx:id="subSegundo" layoutX="151.0" layoutY="462.0" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="151.0" layoutY="515.0" textFill="#e9f2ff">
+            <Label fx:id="subTercero" layoutX="151.0" layoutY="515.0" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="151.0" layoutY="487.0" textFill="#e9f2ff">
+            <Label fx:id="subCuarto" layoutX="151.0" layoutY="487.0" textFill="#e9f2ff">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="148.0" layoutY="549.0" textFill="#81cd9d">
+            <Label fx:id="total" layoutX="148.0" layoutY="549.0" textFill="#81cd9d">
                <font>
                   <Font size="16.0" />
                </font>
             </Label>
-            <Label layoutX="42.0" layoutY="324.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
+            <Label fx:id="labelCuarto" layoutX="42.0" layoutY="324.0" prefHeight="17.0" prefWidth="96.0" textFill="#e9f2ff" />
             <ImageView fitHeight="89.0" fitWidth="96.0" layoutX="32.0" layoutY="40.0">
                <image>
                   <Image url="@home.png" />

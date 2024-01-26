@@ -1,5 +1,7 @@
 package src.app.gui;
 
+import java.math.BigDecimal;
+
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -38,20 +40,21 @@ public class AppShopController extends AppController {
 			if (id.equalsIgnoreCase("addstar")) {
 
 				product.setNombre("Starfield");
-
+				product.setPrecio(new BigDecimal(40));
 				usuario.getListaProductos().add(product);
 
 			} else if (id.equalsIgnoreCase("addSpiderman")) {
 				product.setNombre("Spiderman");
-
+				
+				product.setPrecio(new BigDecimal(20));
 				usuario.getListaProductos().add(product);
 			} else if (id.equalsIgnoreCase("addLastOU")) {
 				product.setNombre("Lou");
-
+				product.setPrecio(new BigDecimal(36));
 				usuario.getListaProductos().add(product);
 			} else {
 				product.setNombre("DemonSouls");
-
+				product.setPrecio(new BigDecimal(15));
 				usuario.getListaProductos().add(product);
 			}
 
