@@ -43,7 +43,7 @@
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <Button layoutX="307.0" layoutY="565.0" mnemonicParsing="false" onAction="#add" prefHeight="69.0" prefWidth="185.0" style="-fx-background-color: #81cd9d;" text="ADD TO CART" textFill="#e9f2ff">
+      <Button fx:id="addLastOU" layoutX="307.0" layoutY="565.0" mnemonicParsing="false" onAction="#add" prefHeight="69.0" prefWidth="185.0" style="-fx-background-color: #81cd9d;" text="ADD TO CART" textFill="#e9f2ff">
          <font>
             <Font size="14.0" />
          </font></Button>

@@ -2,6 +2,7 @@ package src.app.gui.iniciarSesion;
 
 
 
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
@@ -20,12 +21,12 @@ public class iniciarSesionController extends AppController {
 	private PasswordField tfContra;
 
 	@FXML
-	public void entrar() {
+	public void entrar(Event e) {
 		
 		if(tfUsuario!=null && tfContra!=null) {
 			usuario = usuSer.login(tfUsuario.getText(), tfContra.getText());
 			if (usuario != null) {
-
+				//add(AppShopController.e);
 				cambiarVista(FXMLPaths.PANTALLA_2);
 			} else {
 				Alert a = new Alert(AlertType.ERROR);

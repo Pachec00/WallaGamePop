@@ -2,6 +2,7 @@ package modelo;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 import lombok.Data;
 
@@ -14,9 +15,15 @@ public class Usuario {
 	private String usuario;
 	private String contraseña;
 	private List<Producto> listaProductos;
+
 	
 //	crear producto y añadir usuario
-
+	
+	public Usuario() {
+		listaProductos = new ArrayList<>();
+	}
+	
+	
 	public Integer getIdUsuario() {
 		return idUsuario;
 	}
@@ -74,4 +81,26 @@ public class Usuario {
 	public void crearLista() {
 		listaProductos = new ArrayList<Producto>();
 	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Usuario other = (Usuario) obj;
+		return Objects.equals(nombre, other.nombre);
+	}
+
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(nombre);
+	}
+	
+	
+	
 }

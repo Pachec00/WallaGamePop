@@ -52,7 +52,7 @@ public class AppController {
 	}
 
 	public void setUsuario(Usuario usuario) {
-		this.usuario = usuario;
+		AppController.usuario = usuario;
 	}
 
 	public UsuarioService getUsuSer() {

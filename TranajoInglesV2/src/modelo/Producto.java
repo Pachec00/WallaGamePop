@@ -1,6 +1,7 @@
 package modelo;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 import lombok.Data;
 
@@ -64,4 +65,24 @@ public class Producto {
 		this.idUsuario = idUsuario;
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Producto other = (Producto) obj;
+		return Objects.equals(nombre, other.nombre);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(nombre);
+	}
+
+	
+	
+	
 }
