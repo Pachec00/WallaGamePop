@@ -89,7 +89,7 @@ public class compraController extends AppController {
 			
 		}
 		
-		this.total.setText(total.toString());
+		this.total.setText(total.toString()+"€");
 		
 		
 		
@@ -100,19 +100,19 @@ public class compraController extends AppController {
 		if(labelPrimero.getText().isEmpty()) {
 			labelPrimero.setText(product.getNombre());
 			cantidadPrimero.setText(cantidad.toString());
-			subPrimero.setText(product.getPrecio().multiply(new BigDecimal(cantidad)).toString());
+			subPrimero.setText(product.getPrecio().multiply(new BigDecimal(cantidad)).toString()+"€");
 		}else if(labelSegundo.getText().isEmpty()) {
 			labelSegundo.setText(product.getNombre());
 			cantidadSegundo.setText(cantidad.toString());
-			subSegundo.setText(product.getPrecio().multiply(new BigDecimal(cantidad)).toString());
+			subSegundo.setText(product.getPrecio().multiply(new BigDecimal(cantidad)).toString()+"€");
 		}else if(labelTercero.getText().isEmpty()) {
 			labelTercero.setText(product.getNombre());
 			cantidadTercero.setText(cantidad.toString());
-			subTercero.setText(product.getPrecio().multiply(new BigDecimal(cantidad)).toString());
+			subTercero.setText(product.getPrecio().multiply(new BigDecimal(cantidad)).toString()+"€");
 		}else {
 			labelCuarto.setText(product.getNombre());
 			cantidadCuarta.setText(cantidad.toString());
-			subCuarto.setText(product.getPrecio().multiply(new BigDecimal(cantidad)).toString());
+			subCuarto.setText(product.getPrecio().multiply(new BigDecimal(cantidad)).toString()+"€");
 		}
 	}
 
