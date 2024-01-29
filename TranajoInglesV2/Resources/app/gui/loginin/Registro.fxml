@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="815.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.registrar.registrarController">
    <children>
-      <TextField fx:id="tfUser" alignment="CENTER" layoutX="327.0" layoutY="230.0" prefHeight="42.0" prefWidth="179.0" promptText="User/E-mail :" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;">
+      <TextField fx:id="tfUser" alignment="CENTER" layoutX="327.0" layoutY="230.0" prefHeight="42.0" prefWidth="179.0" promptText="User:" style="-fx-border-color: lightyellow; -fx-border-radius: 30; -fx-background-radius: 30; -fx-background-color: black; -fx-text-fill: white;">
          <font>
             <Font size="14.0" />
          </font></TextField>
