@@ -41,20 +41,23 @@ public class AppShopController extends AppController {
 
 				product.setNombre("Starfield");
 				product.setPrecio(new BigDecimal(40));
+				product.setImagen("/app/gui/loginin/star.jpg");
 				usuario.getListaProductos().add(product);
 
 			} else if (id.equalsIgnoreCase("addSpiderman")) {
-				product.setNombre("Spiderman");
-				
+				product.setNombre("Spiderman");				
 				product.setPrecio(new BigDecimal(20));
+				product.setImagen("/app/gui/loginin/spiderman.PNG");
 				usuario.getListaProductos().add(product);
 			} else if (id.equalsIgnoreCase("addLastOU")) {
 				product.setNombre("The Last of Us");
 				product.setPrecio(new BigDecimal(36));
+				product.setImagen("/app/gui/loginin/lastofUs.PNG");
 				usuario.getListaProductos().add(product);
 			} else {
 				product.setNombre("DemonSouls");
 				product.setPrecio(new BigDecimal(15));
+				product.setImagen("/app/gui/loginin/demonsSoul.PNG");
 				usuario.getListaProductos().add(product);
 			}
 

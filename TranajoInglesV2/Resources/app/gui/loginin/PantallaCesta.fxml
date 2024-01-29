@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.cesta.cestaController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.cesta.cestaController">
    <children>
       <Label alignment="CENTER" layoutX="208.0" layoutY="46.0" prefHeight="105.0" prefWidth="385.0" style="-fx-border-color: black;" text="SHOOPING CAR" textFill="#81cd9d">
          <font>
@@ -21,7 +21,7 @@
             <Image url="@carrito.png" />
          </image>
       </ImageView>
-      <Label fx:id="labelStar" layoutX="254.0" layoutY="211.0" prefHeight="25.0" prefWidth="130.0" text="Starfield" textFill="#e9f2ff" visible="false" />
+      <Label fx:id="labelStar" layoutX="254.0" layoutY="211.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="24.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
       <Button layoutX="32.0" layoutY="139.0" mnemonicParsing="false" onAction="#home" prefHeight="20.0" prefWidth="96.0" style="-fx-background-color: #81cd9d;" text="Home" textFill="#e9f2ff" />
       <Button layoutX="296.0" layoutY="593.0" mnemonicParsing="false" onAction="#compra" prefHeight="63.0" prefWidth="192.0" style="-fx-background-color: #81cd9d;" text="BUY" textFill="#e9f2ff">
@@ -37,33 +37,17 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="89.0" layoutX="652.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
-      <ImageView fx:id="imagenStar" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true" visible="false">
-         <image>
-            <Image url="@star.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fx:id="imagenSpiderman" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true" visible="false">
-         <image>
-            <Image url="@spiderman.PNG" />
-         </image>
-      </ImageView>
-      <ImageView fx:id="imagenLastOU" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true" visible="false">
-         <image>
-            <Image url="@lastofUs.PNG" />
-         </image>
-      </ImageView>
-      <ImageView fx:id="imagenDemon" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true" visible="false">
-         <image>
-            <Image url="@demonsSoul.PNG" />
-         </image>
-      </ImageView>
+      <ImageView fx:id="imagenStar" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imagenSpiderman" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imagenLastOU" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imagenDemon" fitHeight="76.0" fitWidth="54.0" layoutX="181.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true" />
       <Label fx:id="precioStar" layoutX="254.0" layoutY="246.0" prefHeight="25.0" prefWidth="130.0" text="40€" textFill="#e9f2ff" visible="false" />
       <Label fx:id="precioSpiderman" layoutX="254.0" layoutY="332.0" prefHeight="25.0" prefWidth="130.0" text="20€" textFill="#e9f2ff" visible="false" />
       <Label fx:id="precioLastOU" layoutX="254.0" layoutY="423.0" prefHeight="25.0" prefWidth="130.0" text="36€" textFill="#e9f2ff" visible="false" />
       <Label fx:id="precioDemon" layoutX="254.0" layoutY="512.0" prefHeight="25.0" prefWidth="130.0" text="15€" textFill="#e9f2ff" visible="false" />
-      <Label fx:id="labelSpiderman" layoutX="254.0" layoutY="297.0" prefHeight="25.0" prefWidth="130.0" text="Spider" textFill="#e9f2ff" visible="false" />
-      <Label fx:id="labelLastOU" layoutX="254.0" layoutY="388.0" prefHeight="25.0" prefWidth="130.0" text="The last of Us" textFill="#e9f2ff" visible="false" />
-      <Label fx:id="labelDemon" layoutX="254.0" layoutY="476.0" prefHeight="25.0" prefWidth="130.0" text="Demons Souls" textFill="#e9f2ff" visible="false" />
+      <Label fx:id="labelSpiderman" layoutX="254.0" layoutY="297.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
+      <Label fx:id="labelLastOU" layoutX="254.0" layoutY="388.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
+      <Label fx:id="labelDemon" layoutX="254.0" layoutY="476.0" prefHeight="25.0" prefWidth="130.0" textFill="#e9f2ff" />
       <Label fx:id="cantidadStar" layoutX="121.0" layoutY="238.0" prefHeight="17.0" prefWidth="34.0" textFill="WHITE" />
       <Label fx:id="cantidadSpiderman" layoutX="121.0" layoutY="324.0" prefHeight="17.0" prefWidth="34.0" textFill="WHITE" />
       <Label fx:id="cantidadLastOU" layoutX="121.0" layoutY="405.0" prefHeight="17.0" prefWidth="34.0" textFill="#fffdfd" />

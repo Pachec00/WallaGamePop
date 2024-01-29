@@ -3,6 +3,7 @@ package src.app.gui;
 import javafx.application.Application;
 
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class App extends Application {
 
@@ -10,6 +11,7 @@ public class App extends Application {
 	public void start(Stage primaryStage) throws Exception {
 
 		AppShopController controller = new AppShopController(primaryStage);
+	
 		controller.cambiarVista(FXMLPaths.LOGIN);
 		primaryStage.show();
 		primaryStage.setMaxHeight(710);

@@ -7,6 +7,8 @@ import lombok.Data;
 
 @Data
 public class Producto {
+	
+	public final String URL_SPIDER="/app/gui/loginin/spiderman.PNG";
 
 	private Integer idProducto;
 	private String nombre;

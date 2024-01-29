@@ -1,8 +1,11 @@
 package src.app.gui.cesta;
 
+import java.math.BigDecimal;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import modelo.Producto;
 import src.app.gui.AppController;
@@ -71,34 +74,49 @@ public class cestaController extends AppController {
 		for (Producto product : usuario.getListaProductos()) {
 			
 			if(product.getNombre().equalsIgnoreCase("Starfield")) {
-				Long cantidad =  usuario.getListaProductos().stream().filter(z -> z.getNombre().equalsIgnoreCase("Starfield")).count();   
-				imagenStar.setVisible(true);
-				labelStar.setVisible(true);
-				cantidadStar.setText(cantidad.toString());
+				Long cantidad =  usuario.getListaProductos().stream().filter(z -> z.getNombre().equalsIgnoreCase("Starfield")).count();   							
+				rellenar(product, cantidad);
 				
 			}else if(product.getNombre().equalsIgnoreCase("Spiderman")) {
 				Long cantidad =  usuario.getListaProductos().stream().filter(z -> z.getNombre().equalsIgnoreCase("Spiderman")).count();   
-				imagenSpiderman.setVisible(true);
-				labelSpiderman.setVisible(true);
-				cantidadSpiderman.setText(cantidad.toString());
+				rellenar(product, cantidad);
 				
 			}else if(product.getNombre().equalsIgnoreCase("The last of us")) {
-				Long cantidad =  usuario.getListaProductos().stream().filter(z -> z.getNombre().equalsIgnoreCase("Lou")).count();   
-				imagenLastOU.setVisible(true);
-				labelLastOU.setVisible(true);
-				cantidadLastOU.setText(cantidad.toString());
+				Long cantidad =  usuario.getListaProductos().stream().filter(z -> z.getNombre().equalsIgnoreCase("The last of us")).count();   
+				rellenar(product, cantidad);
 				
 			}else {
 				Long cantidad =  usuario.getListaProductos().stream().filter(z -> z.getNombre().equalsIgnoreCase("demonSouls")).count();   
-				imagenDemon.setVisible(true);
-				labelDemon.setVisible(true);
-				cantidadDemon.setText(cantidad.toString());
+				rellenar(product, cantidad);
 			}
 			
 			
 		}
 		
 		
+	}
+	public void rellenar(Producto product, Long cantidad) {
+		if(labelStar.getText().isEmpty()) {
+			labelStar.setText(product.getNombre());
+			cantidadStar.setText(cantidad.toString());			
+			Image image1 = new Image(getClass().getResource(product.getImagen()).toString());
+			imagenStar.setImage(image1);
+		}else if(labelSpiderman.getText().isEmpty()) {
+			labelSpiderman.setText(product.getNombre());
+			cantidadSpiderman.setText(cantidad.toString());
+			Image image1 = new Image(getClass().getResource(product.getImagen()).toString());
+			imagenSpiderman.setImage(image1);	
+		}else if(labelLastOU.getText().isEmpty()) {
+			labelLastOU.setText(product.getNombre());
+			cantidadLastOU.setText(cantidad.toString());
+			Image image1 = new Image(getClass().getResource(product.getImagen()).toString());
+			imagenLastOU.setImage(image1);	
+		}else {
+			labelDemon.setText(product.getNombre());
+			cantidadDemon.setText(cantidad.toString());
+			Image image1 = new Image(getClass().getResource(product.getImagen()).toString());
+			imagenDemon.setImage(image1);	
+		}
 	}
 	
 
