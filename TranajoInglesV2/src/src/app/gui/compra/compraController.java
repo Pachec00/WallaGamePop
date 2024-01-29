@@ -74,7 +74,7 @@ public class compraController extends AppController {
 				total = total.add(product.getPrecio().multiply(new BigDecimal(cantidad)));
 				rellenar(product, cantidad);
 				
-			}else if(product.getNombre().equalsIgnoreCase("Lou")) {
+			}else if(product.getNombre().equalsIgnoreCase("The last of us")) {
 				Long cantidad =  usuario.getListaProductos().stream().filter(z -> z.getNombre().equalsIgnoreCase("Lou")).count();   
 				total = total.add(product.getPrecio().multiply(new BigDecimal(cantidad)));
 				rellenar(product, cantidad);

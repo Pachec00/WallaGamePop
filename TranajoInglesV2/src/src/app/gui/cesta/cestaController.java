@@ -82,7 +82,7 @@ public class cestaController extends AppController {
 				labelSpiderman.setVisible(true);
 				cantidadSpiderman.setText(cantidad.toString());
 				
-			}else if(product.getNombre().equalsIgnoreCase("Lou")) {
+			}else if(product.getNombre().equalsIgnoreCase("The last of us")) {
 				Long cantidad =  usuario.getListaProductos().stream().filter(z -> z.getNombre().equalsIgnoreCase("Lou")).count();   
 				imagenLastOU.setVisible(true);
 				labelLastOU.setVisible(true);

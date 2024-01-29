@@ -49,7 +49,7 @@ public class AppShopController extends AppController {
 				product.setPrecio(new BigDecimal(20));
 				usuario.getListaProductos().add(product);
 			} else if (id.equalsIgnoreCase("addLastOU")) {
-				product.setNombre("Lou");
+				product.setNombre("The Last of Us");
 				product.setPrecio(new BigDecimal(36));
 				usuario.getListaProductos().add(product);
 			} else {
