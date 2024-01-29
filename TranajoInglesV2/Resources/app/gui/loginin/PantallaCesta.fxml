@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.cesta.cestaController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="799.0" style="-fx-background-color: #720252;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.app.gui.cesta.cestaController">
    <children>
       <Label alignment="CENTER" layoutX="208.0" layoutY="46.0" prefHeight="105.0" prefWidth="385.0" style="-fx-border-color: black;" text="SHOOPING CAR" textFill="#81cd9d">
          <font>
@@ -29,8 +29,8 @@
             <Font size="16.0" />
          </font>
       </Button>
-      <Line endX="306.0" layoutX="390.0" layoutY="559.0" startX="-286.0" />
-      <Line endX="306.0" layoutX="382.0" layoutY="205.0" startX="-286.0" />
+      <Line endX="304.0" layoutX="390.0" layoutY="559.0" startX="-286.0" />
+      <Line endX="304.0" endY="-1.0" layoutX="390.0" layoutY="203.0" startX="-286.0" />
       <ImageView fitHeight="89.0" fitWidth="96.0" layoutX="32.0" layoutY="40.0">
          <image>
             <Image url="@home.png" />
@@ -68,5 +68,9 @@
       <Label fx:id="cantidadSpiderman" layoutX="121.0" layoutY="324.0" prefHeight="17.0" prefWidth="34.0" textFill="WHITE" />
       <Label fx:id="cantidadLastOU" layoutX="128.0" layoutY="405.0" prefHeight="17.0" prefWidth="34.0" textFill="#fffdfd" />
       <Label fx:id="cantidadDemon" layoutX="138.0" layoutY="504.0" prefHeight="17.0" prefWidth="34.0" textFill="WHITE" />
+      <Label layoutX="104.0" layoutY="208.0" prefHeight="76.0" prefWidth="593.0" style="-fx-border-color: #e9f2ff;" textFill="#e9f2ff" />
+      <Label layoutX="103.0" layoutY="298.0" prefHeight="76.0" prefWidth="593.0" style="-fx-border-color: #e9f2ff;" />
+      <Label layoutX="103.0" layoutY="385.0" prefHeight="76.0" prefWidth="593.0" style="-fx-border-color: #e9f2ff;" />
+      <Label layoutX="104.0" layoutY="475.0" prefHeight="76.0" prefWidth="593.0" style="-fx-border-color: #e9f2ff;" />
    </children>
 </AnchorPane>

@@ -21,7 +21,7 @@ public class iniciarSesionController extends AppController {
 	private PasswordField tfContra;
 
 	@FXML
-	public void entrar(Event e) {
+	public void entrar() {
 		
 		if(tfUsuario!=null && tfContra!=null) {
 			usuario = usuSer.login(tfUsuario.getText(), tfContra.getText());

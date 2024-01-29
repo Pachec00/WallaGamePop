@@ -9,8 +9,8 @@ public class OpenConnection {
 	public Connection getConnection() throws SQLException {
 		String url = "jdbc:mariadb://10.50.20.120/wallagamepop";
 		String clase = "org.mariadb.jdbc.Driver";
-		String usuario = "flavio";
-		String contra = "flavio";
+		String usuario = "miranda";
+		String contra = "miranda";
 
 		try {
 			Class.forName(clase);
