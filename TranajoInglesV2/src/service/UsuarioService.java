@@ -34,7 +34,9 @@ public class UsuarioService implements UsuarioServiceInterface {
 
 			Usuario usuarioCon = dao.consultarUsuario(usuario, conn);
 
-			if (usuarioCon != null && usuarioCon.getContraseña().equals(contraseña)) {
+			if (usuarioCon != null && usuarioCon.getContraseña().equals(pass)) {
+				System.out.println(pass);
+				System.out.println(usuarioCon.getContraseña());
 				return usuarioCon;
 			}
 
@@ -59,6 +61,7 @@ public class UsuarioService implements UsuarioServiceInterface {
 
 		try {
 			String pass = encriptarPass(usuario.getContraseña());
+			usuario.setContraseña(pass);
 			conn = openConnection.getConnection();
 
 			DaoUsuario dao = new DaoUsuario();
