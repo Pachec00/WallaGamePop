@@ -45,14 +45,14 @@ public class registrarController extends AppController {
 			} else {
 				Alert a = new Alert(AlertType.ERROR);
 				a.setHeaderText(null);
-				a.setContentText("Error en el usuario o contraseña");
+				a.setContentText("Usuario ya existe");
 				a.setTitle("Error");
 				a.showAndWait();
 			}
 		} else {
 			Alert a = new Alert(AlertType.ERROR);
 			a.setHeaderText(null);
-			a.setContentText("Error en el usuario o contraseña");
+			a.setContentText("Rellena los campos");
 			a.setTitle("Error");
 			a.showAndWait();
 		}
