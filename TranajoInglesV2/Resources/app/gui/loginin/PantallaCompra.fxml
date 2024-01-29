@@ -123,22 +123,22 @@
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label fx:id="subPrimero" layoutX="151.0" layoutY="437.0" textFill="#e9f2ff">
+            <Label fx:id="subPrimero" layoutX="151.0" layoutY="420.0" textFill="#e9f2ff">
                <font>
                   <Font size="16.0" />
                </font>
             </Label>
-            <Label fx:id="subSegundo" layoutX="151.0" layoutY="462.0" textFill="#e9f2ff">
+            <Label fx:id="subSegundo" layoutX="151.0" layoutY="448.0" textFill="#e9f2ff">
                <font>
                   <Font size="16.0" />
                </font>
             </Label>
-            <Label fx:id="subTercero" layoutX="151.0" layoutY="515.0" textFill="#e9f2ff">
+            <Label fx:id="subTercero" layoutX="151.0" layoutY="505.0" textFill="#e9f2ff">
                <font>
                   <Font size="16.0" />
                </font>
             </Label>
-            <Label fx:id="subCuarto" layoutX="151.0" layoutY="487.0" textFill="#e9f2ff">
+            <Label fx:id="subCuarto" layoutX="151.0" layoutY="475.0" textFill="#e9f2ff">
                <font>
                   <Font size="16.0" />
                </font>

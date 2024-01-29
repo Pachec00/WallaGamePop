@@ -66,8 +66,8 @@
       <Label fx:id="labelDemon" layoutX="254.0" layoutY="476.0" prefHeight="25.0" prefWidth="130.0" text="Demons Souls" textFill="#e9f2ff" visible="false" />
       <Label fx:id="cantidadStar" layoutX="121.0" layoutY="238.0" prefHeight="17.0" prefWidth="34.0" textFill="WHITE" />
       <Label fx:id="cantidadSpiderman" layoutX="121.0" layoutY="324.0" prefHeight="17.0" prefWidth="34.0" textFill="WHITE" />
-      <Label fx:id="cantidadLastOU" layoutX="128.0" layoutY="405.0" prefHeight="17.0" prefWidth="34.0" textFill="#fffdfd" />
-      <Label fx:id="cantidadDemon" layoutX="138.0" layoutY="504.0" prefHeight="17.0" prefWidth="34.0" textFill="WHITE" />
+      <Label fx:id="cantidadLastOU" layoutX="121.0" layoutY="405.0" prefHeight="17.0" prefWidth="34.0" textFill="#fffdfd" />
+      <Label fx:id="cantidadDemon" layoutX="121.0" layoutY="504.0" prefHeight="17.0" prefWidth="34.0" textFill="WHITE" />
       <Label layoutX="104.0" layoutY="208.0" prefHeight="76.0" prefWidth="593.0" style="-fx-border-color: #e9f2ff;" textFill="#e9f2ff" />
       <Label layoutX="103.0" layoutY="298.0" prefHeight="76.0" prefWidth="593.0" style="-fx-border-color: #e9f2ff;" />
       <Label layoutX="103.0" layoutY="385.0" prefHeight="76.0" prefWidth="593.0" style="-fx-border-color: #e9f2ff;" />
